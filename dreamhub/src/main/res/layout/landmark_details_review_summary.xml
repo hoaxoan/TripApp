@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LandmarkDetails.ReviewSummaryBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/landmark_details_common_padding"
+    android:paddingLeft="@dimen/landmark_details_common_padding"
+    android:paddingRight="@dimen/landmark_details_common_padding"
+    android:paddingTop="@dimen/landmark_details_common_padding">
+
+    <TextView
+        style="@style/Winter.TextAppearance.Medium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/landmark_details_common_padding"
+        android:text="@string/reviews_label" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@id/review_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/review_summary_horizontal_padding">
+
+            <TextView
+                android:id="@+id/average"
+                style="@style/EntityAverageRatingLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="5"/>
+
+            <RatingBar
+                android:id="@+id/review_summary_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landmark_details_rating_bar_height"
+                android:layout_gravity="center_horizontal"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressDrawable="@drawable/landmark_item_rating_star_14dp"
+                android:stepSize="0.1" />
+
+            <TextView
+                android:id="@+id/review_summary_total_evaluations"
+                style="@style/EntityReviewCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="@dimen/landmark_details_top_bottom_padding"
+                android:paddingTop="@dimen/landmark_details_top_bottom_padding"
+                android:text="5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stars_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/review_container"
+            android:orientation="vertical">
+            <include
+                layout="@layout/review_summary_rating_chart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/rhythm48_large_gutter"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

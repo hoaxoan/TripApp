@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/trip_header_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+            android:id="@+id/trip_hero_image_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/quantum_grey200">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <com.winter.dreamhub.widget.FadingImageView
+                    android:id="@+id/trip_hero_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/trip_hero_image_overlay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <TextView
+                    android:id="@+id/photo_attribution_text"
+                    style="@style/TripAttribution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="start|bottom|center"
+                    android:layout_marginBottom="@dimen/trip_details_attribution_bottom_margin"
+                    android:layout_marginLeft="@dimen/trip_details_attribution_left_right_margin"
+                    android:layout_marginRight="@dimen/trip_details_attribution_left_right_margin"
+                    android:gravity="bottom"
+                    android:minHeight="@dimen/min_tap_target"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

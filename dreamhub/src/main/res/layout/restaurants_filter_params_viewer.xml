@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/quantum_white_100"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/open_restaurants_filter_button"
+        android:layout_width="@dimen/min_tap_target"
+        android:layout_height="@dimen/min_tap_target"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/restaurants_filter_ui_choose_time_and_day"
+        android:scaleType="center"
+        android:src="@drawable/quantum_ic_tune_grey600_24" />
+
+    <TextView
+        android:id="@+id/restaurants_type_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_triple_padding"
+        android:layout_marginTop="@dimen/material_triple_padding"
+        android:background="@drawable/chip_round_corners"
+        android:gravity="center"
+        android:minHeight="@dimen/chip_height"
+        android:textColor="@color/quantum_white_100"
+        android:text="Full day"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/restaurants_day_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_triple_padding"
+        android:layout_marginLeft="@dimen/material_double_padding"
+        android:layout_marginTop="@dimen/material_triple_padding"
+        android:background="@drawable/chip_round_corners"
+        android:gravity="center"
+        android:minHeight="@dimen/chip_height"
+        android:textColor="@color/quantum_white_100"
+        android:text="Tuesday"/>
+</LinearLayout>

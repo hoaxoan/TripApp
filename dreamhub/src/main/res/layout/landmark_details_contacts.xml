@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LandmarkDetails.ContactsBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/landmark_details_top_bottom_padding"
+    android:paddingLeft="@dimen/landmark_details_common_padding"
+    android:paddingRight="@dimen/landmark_details_common_padding">
+
+    <LinearLayout
+        android:id="@+id/landmark_address_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:minHeight="@dimen/min_tap_target"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/quantum_ic_place_grey600_24" />
+
+        <TextView
+            android:id="@+id/landmark_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/landmark_details_contacts_left_margin" />
+    </LinearLayout>
+
+    <com.winter.dreamhub.widget.ToggleFrameLayout
+        android:id="@+id/landmark_open_hours_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:minHeight="@dimen/min_tap_target"
+        android:paddingBottom="@dimen/landmark_details_top_bottom_padding"
+        android:paddingTop="@dimen/landmark_details_top_bottom_padding">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/container_current_day_open_hours">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quantum_ic_schedule_grey600_24" />
+
+            <TextView
+                android:id="@+id/landmark_current_day_open_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/landmark_details_contacts_left_margin"
+                android:drawableRight="@drawable/quantum_ic_keyboard_arrow_down_black_18"
+                android:ellipsize="end"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_all_days_open_hours"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quantum_ic_schedule_grey600_24" />
+
+            <TableLayout
+                android:id="@+id/landmark_all_days_open_hours"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/landmark_details_contacts_left_margin"
+                android:orientation="vertical"
+                android:stretchColumns="0" />
+        </LinearLayout>
+    </com.winter.dreamhub.widget.ToggleFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/landmark_phone_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:minHeight="@dimen/min_tap_target"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/quantum_ic_phone_grey600_24" />
+
+        <TextView
+            android:id="@+id/landmark_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/landmark_details_contacts_left_margin" />
+    </LinearLayout>
+</LinearLayout>

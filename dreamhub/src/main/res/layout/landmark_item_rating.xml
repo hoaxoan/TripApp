@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/landmark_item_rating_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/landmark_item_description_top_padding">
+
+    <TextView
+        android:id="@+id/landmark_average_rate"
+        style="@style/EntityAverageRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <RatingBar
+        android:id="@+id/landmark_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/landmark_item_rating_bar_height"
+        android:layout_marginLeft="@dimen/landmark_item_rating_bar_margin_left"
+        android:layout_marginRight="@dimen/landmark_item_rating_bar_margin_right"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressDrawable="@drawable/landmark_item_rating_star_14dp"
+        android:stepSize="0.1" />
+
+    <TextView
+        android:id="@+id/landmark_total_evaluations"
+        style="@style/EntityReviewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff8e24aa"
+        android:descendantFocusability="afterDescendants">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="?actionBarSize"
+            android:descendantFocusability="afterDescendants"
+            android:background="#ffffffff"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="8.0dip">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="72.0dip"
+                            android:layout_height="72.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:paddingLeft="16.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingTop="16.0dip"
+                            android:scaleType="centerInside" />
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="24.0dip"
+                            android:layout_marginTop="24.0dip"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="Group 1"
+                            android:textColor="#ff212121"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffd6d6d6" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="72.0dip"
+                            android:layout_height="72.0dip"
+                            android:paddingBottom="16.0dip"
+                            android:paddingLeft="16.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingTop="16.0dip"
+                            android:scaleType="centerInside"/>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="24.0dip"
+                            android:layout_marginTop="24.0dip"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="Group 2"
+                            android:textColor="#ff212121"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffd6d6d6" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:layout_width="64.0dip"
+                android:layout_height="?actionBarSize"
+                android:background="?android:selectableItemBackground"
+                android:focusable="false"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="10.0dip"
+                android:paddingRight="24.0dip"
+                android:paddingBottom="10.0dip"
+                android:src="@drawable/ic_menu_white_24" />
+            <TextView
+                android:id="@+id/title"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#ffffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="?actionBarSize"
+                android:text="Groups" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

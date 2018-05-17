@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.ForegroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comment_background"
+    android:clipToPadding="false"
+    android:descendantFocusability="blocksDescendants"
+    android:foreground="?android:selectableItemBackground"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingBottom="@dimen/padding_normal"
+    android:paddingEnd="@dimen/padding_normal"
+    android:paddingTop="@dimen/padding_normal"
+    android:stateListAnimator="@animator/comment_selection">
+
+    <com.winter.dreamhub.widget.CircularImageView
+        android:id="@+id/player_avatar"
+        android:layout_width="@dimen/avatar_bounds"
+        android:layout_height="@dimen/avatar_bounds"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/avatar_margin"
+        android:layout_marginStart="@dimen/avatar_margin"
+        android:foreground="@drawable/avatar_ripple"
+        android:padding="@dimen/avatar_padding"
+        android:stateListAnimator="@animator/raise"
+        android:src="@drawable/ic_player" />
+
+    <com.winter.dreamhub.widget.BaselineGridTextView
+        android:id="@+id/comment_time_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="@style/TextAppearance.CommentTimestamp"
+        tools:text="3 hours ago" />
+
+    <com.winter.dreamhub.widget.AuthorTextView
+        android:id="@+id/comment_author"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_toEndOf="@id/player_avatar"
+        android:layout_toStartOf="@id/comment_time_ago"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textAppearance="@style/TextAppearance.CommentAuthor.Name"
+        tools:text="Nick B" />
+
+    <com.winter.dreamhub.widget.BaselineGridTextView
+        android:id="@+id/comment_text"
+        style="@style/Comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/comment_author"
+        android:layout_marginTop="@dimen/spacing_micro"
+        android:layout_toEndOf="@id/player_avatar"
+        android:textColorHighlight="@color/dribbble_link_highlight"
+        android:textColorLink="@color/dribbble_links"
+        tools:text="Blah blah blah blah blah blah blah blah blah blah blah blah blah" />
+
+    <com.winter.dreamhub.widget.BaselineGridTextView
+        android:id="@+id/comment_likes_count"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comment_actions_height"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/comment_text"
+        android:layout_marginEnd="@dimen/comment_like_margin_adjustment"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:gravity="end|center_vertical"
+        android:padding="@dimen/spacing_normal"
+        android:paddingTop="@dimen/spacing_normal"
+        android:text="0"
+        android:textColor="@color/dark_icon"
+        android:visibility="gone" />
+
+    <com.winter.dreamhub.widget.CheckableImageButton
+        android:id="@+id/comment_like"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comment_actions_height"
+        android:layout_below="@id/comment_text"
+        android:layout_marginEnd="@dimen/comment_like_margin_adjustment"
+        android:layout_toStartOf="@id/comment_likes_count"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="@dimen/spacing_normal"
+        android:src="@drawable/comment_heart"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/comment_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comment_actions_height"
+        android:layout_below="@id/comment_text"
+        android:layout_toStartOf="@id/comment_like"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="@dimen/spacing_normal"
+        android:src="@drawable/ic_reply"
+        android:stateListAnimator="@animator/reply"
+        android:visibility="gone" />
+
+</com.winter.dreamhub.widget.ForegroundRelativeLayout>

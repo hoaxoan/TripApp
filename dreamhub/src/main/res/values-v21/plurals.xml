@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="reviews">
+        <item quantity="other">%1$d reviews</item>
+        <item quantity="zero">%1$d reviews</item>
+        <item quantity="one">%1$d review</item>
+        <item quantity="two">%1$d reviews</item>
+        <item quantity="few">%1$d reviews</item>
+        <item quantity="many">%1$d reviews</item>
+    </plurals>
+    <plurals name="hotel_duration_n_nights">
+        <item quantity="other">%1$d nights</item>
+        <item quantity="zero">%1$d nights</item>
+        <item quantity="one">%1$d night</item>
+        <item quantity="two">%1$d nights</item>
+        <item quantity="few">%1$d nights</item>
+        <item quantity="many">%1$d nights</item>
+    </plurals>
+    <plurals name="restaurant_reservation_party_size_detail_format">
+        <item quantity="other">%1$d guests</item>
+        <item quantity="zero">%1$d guests</item>
+        <item quantity="one">%1$d guest</item>
+        <item quantity="two">%1$d guests</item>
+        <item quantity="few">%1$d guests</item>
+        <item quantity="many">%1$d guests</item>
+    </plurals>
+    <plurals name="car_rental_duration_detail_format">
+        <item quantity="other">%1$d days</item>
+        <item quantity="zero">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+        <item quantity="two">%1$d days</item>
+        <item quantity="few">%1$d days</item>
+        <item quantity="many">%1$d days</item>
+    </plurals>
+    <plurals name="itineraries_sights">
+        <item quantity="other">%1$d sights</item>
+        <item quantity="zero">%1$d sights</item>
+        <item quantity="one">%1$d sight</item>
+        <item quantity="two">%1$d sights</item>
+        <item quantity="few">%1$d sights</item>
+        <item quantity="many">%1$d sights</item>
+    </plurals>
+</resources>

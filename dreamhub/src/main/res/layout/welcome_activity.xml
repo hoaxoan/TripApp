@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/onboarding_screen_container"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/onboarding_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:id="@+id/onboarding_screen_navigation_bar_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/onboarding_screen_bottom_nav_height"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/onboarding_screen_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="@string/btn_back"
+                android:paddingBottom="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:paddingLeft="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingRight="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingTop="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:src="@drawable/ic_arrow_back_white_24"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/onboarding_screen_page_dot_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/onboarding_screen_bottom_container_vertical_padding"
+            android:paddingTop="@dimen/onboarding_screen_bottom_container_vertical_padding" />
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@+id/onboarding_screen_next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:background="?selectableItemBackgroundBorderless"
+                android:contentDescription="@string/btn_next"
+                android:paddingBottom="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:paddingLeft="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingRight="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingTop="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:src="@drawable/ic_forward_wht_24dp" />
+
+            <TextView
+                android:id="@+id/onboarding_screen_done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/onboarding_screen_done_button_height"
+                android:layout_gravity="end|center"
+                android:background="?selectableItemBackgroundBorderless"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:paddingLeft="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingRight="@dimen/onboarding_screen_bottom_container_horizontal_padding"
+                android:paddingTop="@dimen/onboarding_screen_bottom_container_vertical_padding"
+                android:text="@string/btn_onboarding_screen_done"
+                android:textAllCaps="true"
+                android:textColor="@color/white_text"
+                android:textSize="@dimen/onboarding_screen_done_button_text_size"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

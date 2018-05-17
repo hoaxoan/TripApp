@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/trips_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/section_header"
+        style="@style/TripsSectionHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/trips_section_margin"
+        android:visibility="gone" />
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/trip_item_vertical_margin"
+        android:layout_marginLeft="@dimen/trip_item_horizontal_margin"
+        android:layout_marginRight="@dimen/trip_item_horizontal_margin"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_marginTop="@dimen/trip_item_vertical_margin"
+        android:foreground="?android:selectableItemBackground">
+
+        <LinearLayout
+            android:id="@+id/card_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+                android:id="@+id/trip_hero_image_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/trip_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/trip_image_top_overlay_height"
+                    android:background="@drawable/top_gradient_shape" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/trip_card_toolbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:theme="@style/TripCardMenu" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/min_tap_target"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/trip_name_left_padding"
+                    android:paddingTop="@dimen/trip_name_top_padding">
+
+                    <TextView
+                        android:id="@+id/trip_title_text"
+                        style="@style/TripTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/trip_dates"
+                        style="@style/TripDates"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/photo_attribution_text"
+                    style="@style/TripAttribution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|bottom|center"
+                    android:layout_marginBottom="@dimen/trip_item_attribution_bottom_margin"
+                    android:layout_marginLeft="@dimen/trip_item_attribution_left_right_margin"
+                    android:layout_marginRight="@dimen/trip_item_attribution_left_right_margin"
+                    android:gravity="bottom"
+                    android:minHeight="@dimen/min_tap_target"
+                    android:visibility="gone" />
+            </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+            <!--<include
+                android:id="@+id/download_guide_bar"
+                layout="@layout/trip_download_bar" />-->
+
+            <LinearLayout
+                android:id="@+id/destination_download_controls"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+</LinearLayout>

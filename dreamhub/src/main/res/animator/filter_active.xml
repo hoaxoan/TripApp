@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <objectAnimator
+            android:duration="300"
+            android:propertyName="textColor"
+            android:valueFrom="@color/text_disabled_light"
+            android:valueTo="@color/text_primary_light"
+            android:valueType="colorType" />
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="300"
+            android:propertyName="textColor"
+            android:valueFrom="@color/text_primary_light"
+            android:valueTo="@color/text_disabled_light"
+            android:valueType="colorType" />
+    </item>
+</selector>

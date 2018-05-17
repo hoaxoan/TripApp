@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ratingChart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="@dimen/rhythm48_large_gutter">
+
+    <TextView
+        android:id="@+id/ratingBar5Label"
+        style="@style/reviews_rating_bar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <ProgressBar
+        android:id="@+id/ratingBar5"
+        style="@style/rest_rating_bar_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar5Label"
+        android:layout_toRightOf="@+id/ratingBar5Label" />
+
+    <TextView
+        android:id="@+id/ratingBar4Label"
+        style="@style/reviews_rating_bar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar5Label"
+        android:layout_below="@+id/ratingBar5Label"
+        android:text="4" />
+
+    <ProgressBar
+        android:id="@+id/ratingBar4"
+        style="@style/rest_rating_bar_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar4Label"
+        android:layout_toRightOf="@+id/ratingBar4Label" />
+
+    <TextView
+        android:id="@+id/ratingBar3Label"
+        style="@style/reviews_rating_bar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar4Label"
+        android:layout_below="@+id/ratingBar4Label"
+        android:text="3" />
+
+    <ProgressBar
+        android:id="@+id/ratingBar3"
+        style="@style/rest_rating_bar_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar3Label"
+        android:layout_toRightOf="@+id/ratingBar3Label" />
+
+    <TextView
+        android:id="@+id/ratingBar2Label"
+        style="@style/reviews_rating_bar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar3Label"
+        android:layout_below="@+id/ratingBar3Label"
+        android:text="2" />
+
+    <ProgressBar
+        android:id="@+id/ratingBar2"
+        style="@style/rest_rating_bar_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar2Label"
+        android:layout_toRightOf="@+id/ratingBar2Label" />
+
+    <TextView
+        android:id="@+id/ratingBar1Label"
+        style="@style/reviews_rating_bar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar2Label"
+        android:layout_below="@+id/ratingBar2Label"
+        android:text="1" />
+
+    <ProgressBar
+        android:id="@+id/ratingBar1"
+        style="@style/rest_rating_bar_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingBar1Label"
+        android:layout_toRightOf="@+id/ratingBar1Label" />
+</RelativeLayout>

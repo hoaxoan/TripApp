@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/home_fragment_tile_margin"
+    android:foreground="?android:selectableItemBackground">
+
+    <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+        android:id="@+id/holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/static_tile_thumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/static_tile_title"
+            style="@style/HomePageTileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:padding="@dimen/home_fragment_tile_description_padding" />
+    </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+</android.support.design.card.MaterialCardView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GrooveOuterFrame">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/inset_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/back_button" />
+
+            <RelativeLayout
+                android:id="@+id/text_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:id="@+id/title"
+                    style="@style/GrooveCreationWizardTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="textCapSentences"
+                    android:paddingBottom="@dimen/groove_selection_title_with_divider_padding_bottom"
+                    android:paddingEnd="@dimen/groove_selection_title_padding_right"
+                    android:textColor="@android:color/black"
+                    android:textCursorDrawable="@drawable/cursor_black" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/Divider"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/title" />
+
+                <com.winter.dreamhub.widget.FloatingActionButton
+                    android:id="@+id/floating_action_button"
+                    style="@style/MiniFloatingActionButton"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/divider"
+                    android:layout_marginEnd="@dimen/groove_fab_margin_right"
+                    android:layout_marginTop="@dimen/groove_fab_margin_top"
+                    android:src="@drawable/quantum_ic_done_white_24"
+                    android:visibility="gone"/>
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/divider"
+                    android:fadeScrollbars="false">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/custom_groove_suggestion_padding_top">
+
+                        <LinearLayout
+                            android:id="@+id/subcategory_container"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" />
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/material_double_padding"
+        android:layout_marginTop="@dimen/material_double_padding"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/min_tap_target"
+            android:layout_height="@dimen/min_tap_target"
+            android:contentDescription="@string/itinerary_additional_information"
+            android:scaleType="center"
+            android:src="@drawable/quantum_ic_info_outline_grey600_24" />
+
+        <TextView
+            android:id="@+id/opening_hours_warning"
+            style="@style/ItineraryCardText"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0" />
+
+        <ImageView
+            android:id="@+id/toggle"
+            android:layout_width="@dimen/min_tap_target"
+            android:layout_height="@dimen/min_tap_target"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/itinerary_summary_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>

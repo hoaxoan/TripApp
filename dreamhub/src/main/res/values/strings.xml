@@ -1,0 +1,1532 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">We Go</string>
+
+
+    <string name="groove_title">Goals</string>
+    <string name="groove_your_goal">Your goal</string>
+
+    <string name="groove_category_a11y"><g example="Exercise" id="category_name">%1$s</g> category, examples: <g example="Run, do yoga, get your body moving" id="example">%2$s</g>, button.</string>
+    <string name="groove_category_build_skill_cook_something_new">Cook something new</string>
+    <string name="groove_category_build_skill_description">Learn a language, practice an instrument</string>
+    <string name="groove_category_build_skill_hone_carpentry_skills">Hone carpentry skills</string>
+    <string name="groove_category_build_skill_learn_a_knot">Learn a knot</string>
+    <string name="groove_category_build_skill_learn_an_instrument_question">What instrument?</string>
+    <string name="groove_category_build_skill_learn_instrument">Practice an instrument</string>
+    <string name="groove_category_build_skill_learn_new_software">Learn new software</string>
+    <string name="groove_category_build_skill_learn_to_code">Learn to code</string>
+    <string name="groove_category_build_skill_learn_to_drive">Learn to drive</string>
+    <string name="groove_category_build_skill_learn_to_fly">Learn to fly</string>
+    <string name="groove_category_build_skill_make_art">Make art</string>
+    <string name="groove_category_build_skill_make_art_question">What type?</string>
+    <string name="groove_category_build_skill_practice_language">Learn a language</string>
+    <string name="groove_category_build_skill_practice_language_question">What language?</string>
+    <string name="groove_category_build_skill_practice_photography">Practice photography</string>
+    <string name="groove_category_build_skill_question">Which skill?</string>
+    <string name="groove_category_build_skill_sing">Sing</string>
+    <string name="groove_category_build_skill_title">Build a skill</string>
+    <string name="groove_category_exercise_bike">Bike</string>
+    <string name="groove_category_exercise_description">Run, do yoga, get your body moving</string>
+    <string name="groove_category_exercise_hike">Hike</string>
+    <string name="groove_category_exercise_play_badminton">Play badminton</string>
+    <string name="groove_category_exercise_play_baseball">Play baseball</string>
+    <string name="groove_category_exercise_play_basketball">Play basketball</string>
+    <string name="groove_category_exercise_play_soccer">Play soccer</string>
+    <string name="groove_category_exercise_play_tennis">Play tennis</string>
+    <string name="groove_category_exercise_question">Which exercise?</string>
+    <string name="groove_category_exercise_rock_climb">Rock climb</string>
+    <string name="groove_category_exercise_run">Run</string>
+    <string name="groove_category_exercise_swim">Swim</string>
+    <string name="groove_category_exercise_title">Exercise</string>
+    <string name="groove_category_exercise_walk">Walk</string>
+    <string name="groove_category_exercise_wiggle_ears">Wiggle ears</string>
+    <string name="groove_category_exercise_work_out">Work out</string>
+    <string name="groove_category_exercise_yoga">Do yoga</string>
+    <string name="groove_category_friends_and_family_bbq">Have a BBQ</string>
+    <string name="groove_category_friends_and_family_call_dad">Call Dad</string>
+    <string name="groove_category_friends_and_family_call_mom">Call Mom</string>
+    <string name="groove_category_friends_and_family_description">Make time for those who matters most</string>
+    <string name="groove_category_friends_and_family_dinner_with_friends">Get dinner with friends</string>
+    <string name="groove_category_friends_and_family_meal_with_family">Eat with family</string>
+    <string name="groove_category_friends_and_family_plan_a_date">Plan a date</string>
+    <string name="groove_category_friends_and_family_plan_a_reunion">Plan a reunion</string>
+    <string name="groove_category_friends_and_family_plan_family_vacation">Plan family vacation</string>
+    <string name="groove_category_friends_and_family_play_board_game">Play a board game</string>
+    <string name="groove_category_friends_and_family_question">Which activity?</string>
+    <string name="groove_category_friends_and_family_reach_out">Reach out to a friend</string>
+    <string name="groove_category_friends_and_family_title">Family &amp; friends</string>
+    <string name="groove_category_friends_and_family_visit_family">Visit family</string>
+    <string name="groove_category_friends_and_family_walk_the_dog">Walk the dog</string>
+    <string name="groove_category_me_time_cook">Cook</string>
+    <string name="groove_category_me_time_description">Read, meditate, take care of yourself</string>
+    <string name="groove_category_me_time_get_a_massage">Get a massage</string>
+    <string name="groove_category_me_time_hobby">Personal hobby</string>
+    <string name="groove_category_me_time_hobby_question">What hobby?</string>
+    <string name="groove_category_me_time_journal">Journal</string>
+    <string name="groove_category_me_time_lie_in_a_hammock">Lie in a hammock</string>
+    <string name="groove_category_me_time_meditate">Meditate</string>
+    <string name="groove_category_me_time_pray">Pray</string>
+    <string name="groove_category_me_time_question">Which activity?</string>
+    <string name="groove_category_me_time_read">Read</string>
+    <string name="groove_category_me_time_sit_in_the_grass">Sit in the grass</string>
+    <string name="groove_category_me_time_take_a_nap">Take a nap</string>
+    <string name="groove_category_me_time_take_a_selfie">Take a selfie</string>
+    <string name="groove_category_me_time_take_the_boat_out">Take the boat out</string>
+    <string name="groove_category_me_time_title">Me time</string>
+    <string name="groove_category_me_time_watch_movie">Watch a movie</string>
+    <string name="groove_category_organize_buy_groceries">Buy groceries</string>
+    <string name="groove_category_organize_clean_the_house">Clean the house</string>
+    <string name="groove_category_organize_clear_email_inbox">Clear email inbox</string>
+    <string name="groove_category_organize_do_finances">Do finances</string>
+    <string name="groove_category_organize_do_laundry">Do laundry</string>
+    <string name="groove_category_organize_life_chores">Do chores</string>
+    <string name="groove_category_organize_life_clean">Clean</string>
+    <string name="groove_category_organize_life_description">Stay on top of things</string>
+    <string name="groove_category_organize_life_plan_my_day">Plan the day</string>
+    <string name="groove_category_organize_life_question">Which activity?</string>
+    <string name="groove_category_organize_life_title">Organize my life</string>
+    <string name="groove_category_organize_make_a_todo_list">Make a to-do list</string>
+    <string name="groove_category_organize_plan_the_week">Plan the week</string>
+    <string name="groove_category_organize_study">Study</string>
+    <string name="groove_category_screen_description">Viewing goal categories</string>
+    <string name="groove_category_selection_description">Choose one and Calendar will schedule time for it</string>
+    <string name="groove_category_selection_title">Goals learn from your routine</string>
+
+    <string name="groove_frequency_five_times_per_week">5 times a week</string>
+    <string name="groove_frequency_one_time_per_week">Once a week</string>
+    <string name="groove_frequency_three_times_per_week">3 times a week</string>
+    <string name="groove_frequency_title">How often?</string>
+    <string name="groove_frequency_two_times_per_week">Twice a week</string>
+
+    <string name="groove_duration_15_mins">15 minutes</string>
+    <string name="groove_duration_1_hour">1 hour</string>
+    <string name="groove_duration_2_hours">2 hours</string>
+    <string name="groove_duration_30_mins">30 minutes</string>
+    <string name="groove_duration_title">For how long?</string>
+
+    <string name="groove_preferred_time_afternoons">Afternoons</string>
+    <string name="groove_preferred_time_evenings">Evenings</string>
+    <string name="groove_preferred_time_mornings">Mornings</string>
+    <string name="groove_preferred_times_afternoon">Afternoon</string>
+    <string name="groove_preferred_times_any_time">Any time</string>
+    <string name="groove_preferred_times_evening">Evening</string>
+    <string name="groove_preferred_times_morning">Morning</string>
+    <string name="groove_preferred_times_title">Best time?</string>
+
+    <string name="groove_info_title">View goal</string>
+    <string name="groove_schedule_sessions">Schedule goal sessions</string>
+    <string name="groove_let_calendar_suggest">Calendar will schedule:</string>
+    <string name="groove_edit_details">More options</string>
+
+    <string name="groove">Goal</string>
+    <string name="event">Event</string>
+    <string name="event_type">Events</string>
+    <string name="custom_groove_button_label">Custom…</string>
+
+    <string name="every_day">Every day</string>
+    <string name="every_weekday">Every weekday (Mon–Fri)</string>
+    <string name="every_weekday_lower">every weekday (Mon–Fri)</string>
+
+    <string name="accessibility_navigation_icon">Back</string>
+    <string name="close_label">Close</string>
+
+
+    <string name="event_not_found">Event not found.</string>
+    <string name="edit_recurrence_none">Does not repeat</string>
+    <string name="edit_custom_recurrence">Custom…</string>
+
+    <string name="repeats_daily_label">Every day</string>
+    <string name="repeats_label">Repeats</string>
+    <string name="repeats_monthly_label">Every month</string>
+    <string name="repeats_preamble">Repeats <g id="repeats">%s</g></string>
+    <string name="repeats_weekly_label">Every week</string>
+    <string name="repeats_yearly_label">Every year</string>
+
+    <string name="edit_event_cancel">Cancel</string>
+    <string name="edit_event_delete">Delete</string>
+    <string name="edit_event_done">Done</string>
+    <string name="edit_event_from_label">Starts</string>
+    <string name="edit_event_label">Details</string>
+    <string name="edit_event_save">Save</string>
+    <string name="edit_event_show_all">Show all</string>
+    <string name="edit_event_to_label">Ends</string>
+    <string name="edit_label">Edit</string>
+    <string name="edit_feedback">Post</string>
+
+    <string name="edit_location_hint">Add location</string>
+    <string name="edit_add_attachment_hint">Add attachment</string>
+    <string name="edit_add_more_attachments_hint">Add another attachment</string>
+
+    <string name="describe_account_icon">Account Name</string>
+    <string name="describe_attachments_icon">Attachments</string>
+    <string name="describe_availability_icon">Availability</string>
+    <string name="describe_calendar_icon">Calendar Name</string>
+    <string name="describe_confirmation_icon">View Confirmation</string>
+    <string name="describe_custom_event_icon">Custom Event</string>
+    <string name="describe_date_icon">Date Information</string>
+    <string name="describe_email_icon">Email</string>
+    <string name="describe_event_color_icon">Event color</string>
+    <string name="describe_event_icon">Event Information</string>
+    <string name="describe_flight_icon">Flight Information</string>
+    <string name="describe_groove_contract_icon">Goal contract</string>
+    <string name="describe_guests_icon">People list</string>
+    <string name="describe_hotel_icon">Hotel Information</string>
+    <string name="describe_invitation_accepted">Invitation: Going: <g id="title">%s</g></string>
+    <string name="describe_invitation_declined">Invitation: Not going: <g id="title">%s</g></string>
+    <string name="describe_invitation_none">Invitation: Not responded: <g id="title">%s</g></string>
+    <string name="describe_invitation_tentative">Invitation: Maybe going: <g id="title">%s</g></string>
+    <string name="describe_link_icon">Link</string>
+    <string name="describe_location_icon">Location</string>
+    <string name="describe_notes_icon">Notes</string>
+    <string name="describe_notification_icon">Calendar Notifications</string>
+    <string name="describe_phone_icon">Phone</string>
+    <string name="describe_repeat_icon">Recurrence</string>
+    <string name="describe_restaurant_icon">Restaurant Information</string>
+    <string name="describe_room_icon">Rooms</string>
+    <string name="describe_shopping_cart_icon">Shopping cart</string>
+    <string name="describe_sms_icon">SMS</string>
+    <string name="describe_timezone_icon">Time zone</string>
+    <string name="describe_visibility_icon">Visibility</string>
+    <string name="description_label">Description</string>
+
+    <string name="edit_color_default_color">Default color</string>
+    <string name="edit_no_notification">No notification</string>
+    <string name="edit_custom_notification">Custom…</string>
+
+    <string name="add_note_title">Add note</string>
+    <string name="add_notification_label">Add a notification</string>
+    <string name="add_additional_notification_label">Add another notification</string>
+    <string name="no_reminder">No reminder</string>
+    <string name="contact_picker_hint">Type a name or an email address</string>
+    <string name="edit_when_add_end_time">Add end time</string>
+    <string name="custom_notification_dialog_edit_text_error_message">Please select a time before the event begins</string>
+    <string name="custom_notification_dialog_title">Custom Notification</string>
+    <string name="done_uppercase">DONE</string>
+    <string name="edit_description_hint">Add note</string>
+    <string name="edit_title_hint">Enter title</string>
+    <string name="empty_description" />
+
+    <string name="accessibility_overflow">Overflow menu</string>
+    <string name="acessibility_cal_notification">Calendar Notification</string>
+    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+    <string name="acessibility_selected_checkmark_description">Selected</string>
+    <string name="acessibility_selected_marker_description">Selected event</string>
+
+    <string name="edit_label_all_day">All-day</string>
+    <string name="more_options">more options</string>
+
+    <string name="add_guests_hint">Invite people</string>
+    <string name="find_a_time_button_label">FIND A TIME</string>
+
+    <!--Navigation Drawer -->
+    <string name="navdrawer_item_calendars">Calendars</string>
+    <string name="navdrawer_item_news">News</string>
+    <string name="navdrawer_item_hubs">Hubs</string>
+    <string name="navdrawer_item_sign_in">Sign In</string>
+    <string name="navdrawer_item_sign_up">Sign Up</string>
+    <string name="navdrawer_item_settings">Settings</string>
+    <string name="navdrawer_menu_item_a11y_wrapper">%1$s  menu item</string>
+    <string name="navdrawer_selected_menu_item_a11y_wrapper">%1$s selected menu item</string>
+    <string name="navdrawer_description_a11y">Navigation Drawer used to switch between major
+        features of the application</string>
+
+
+    <string name="goto_today">Jump to Today</string>
+    <string name="calendar_refresh">Refresh</string>
+
+    <string name="tab_today">Today</string>
+    <string name="tab_trip">Trip</string>
+    <string name="tab_schedule">Schedule</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- Calendar -->
+    <string name="month_half_name_format">MMM</string>
+    <string name="month_name_format">MMMM</string>
+    <string name="day_name_format">EEEEE</string>
+
+    <!-- Agenda -->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="agenda_event_hour_format">kk:mm</string>
+    <string name="agenda_event_all_day">All DAY</string>
+    <string name="agenda_event_day_duration">d</string>
+    <string name="agenda_event_no_events">No events</string>
+
+    <!-- Weather (day parts) -->
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Evening</string>
+    <!-- Weather (icon codes) -->
+    <!-- See: https://github.com/erikflowers/weather-icons/ -->
+    <string name="wi_day_cloudy_gusts">&#xf000;</string>
+    <string name="wi_day_cloudy_windy">&#xf001;</string>
+    <string name="wi_day_cloudy">&#xf002;</string>
+    <string name="wi_day_fog">&#xf003;</string>
+    <string name="wi_day_hail">&#xf004;</string>
+    <string name="wi_day_lightning">&#xf005;</string>
+    <string name="wi_day_rain_mix">&#xf006;</string>
+    <string name="wi_day_rain_wind">&#xf007;</string>
+    <string name="wi_day_rain">&#xf008;</string>
+    <string name="wi_day_showers">&#xf009;</string>
+    <string name="wi_day_snow">&#xf00a;</string>
+    <string name="wi_day_sprinkle">&#xf00b;</string>
+    <string name="wi_day_sunny_overcast">&#xf00c;</string>
+    <string name="wi_day_sunny">&#xf00d;</string>
+    <string name="wi_day_storm_showers">&#xf00e;</string>
+    <string name="wi_day_thunderstorm">&#xf010;</string>
+    <string name="wi_cloudy_gusts">&#xf011;</string>
+    <string name="wi_cloudy_windy">&#xf012;</string>
+    <string name="wi_cloudy">&#xf013;</string>
+    <string name="wi_fog">&#xf014;</string>
+    <string name="wi_hail">&#xf015;</string>
+    <string name="wi_lightning">&#xf016;</string>
+    <string name="wi_rain_mix">&#xf017;</string>
+    <string name="wi_rain_wind">&#xf018;</string>
+    <string name="wi_rain">&#xf019;</string>
+    <string name="wi_showers">&#xf01a;</string>
+    <string name="wi_snow">&#xf01b;</string>
+    <string name="wi_sprinkle">&#xf01c;</string>
+    <string name="wi_storm_showers">&#xf01d;</string>
+    <string name="wi_thunderstorm">&#xf01e;</string>
+    <string name="wi_windy">&#xf021;</string>
+    <string name="wi_night_alt_cloudy_gusts">&#xf022;</string>
+    <string name="wi_night_alt_cloudy_windy">&#xf023;</string>
+    <string name="wi_night_alt_hail">&#xf024;</string>
+    <string name="wi_night_alt_lightning">&#xf025;</string>
+    <string name="wi_night_alt_rain_mix">&#xf026;</string>
+    <string name="wi_night_alt_rain_wind">&#xf027;</string>
+    <string name="wi_night_alt_rain">&#xf028;</string>
+    <string name="wi_night_alt_showers">&#xf029;</string>
+    <string name="wi_night_alt_snow">&#xf02a;</string>
+    <string name="wi_night_alt_sprinkle">&#xf02b;</string>
+    <string name="wi_night_alt_storm_showers">&#xf02c;</string>
+    <string name="wi_night_alt_thunderstorm">&#xf02d;</string>
+    <string name="wi_night_clear">&#xf02e;</string>
+    <string name="wi_night_cloudy_gusts">&#xf02f;</string>
+    <string name="wi_night_cloudy_windy">&#xf030;</string>
+    <string name="wi_night_cloudy">&#xf031;</string>
+    <string name="wi_night_hail">&#xf032;</string>
+    <string name="wi_night_lightning">&#xf033;</string>
+    <string name="wi_night_rain_mix">&#xf034;</string>
+    <string name="wi_night_rain_wind">&#xf035;</string>
+    <string name="wi_night_rain">&#xf036;</string>
+    <string name="wi_night_showers">&#xf037;</string>
+    <string name="wi_night_snow">&#xf038;</string>
+    <string name="wi_night_sprinkle">&#xf039;</string>
+    <string name="wi_night_storm_showers">&#xf03a;</string>
+    <string name="wi_night_thunderstorm">&#xf03b;</string>
+    <string name="wi_celsius">&#xf03c;</string>
+    <string name="wi_cloud_down">&#xf03d;</string>
+    <string name="wi_cloud_refresh">&#xf03e;</string>
+    <string name="wi_cloud_up">&#xf040;</string>
+    <string name="wi_cloud">&#xf041;</string>
+    <string name="wi_degrees">&#xf042;</string>
+    <string name="wi_down_left">&#xf043;</string>
+    <string name="wi_down">&#xf044;</string>
+    <string name="wi_fahrenheit">&#xf045;</string>
+    <string name="wi_horizon_alt">&#xf046;</string>
+    <string name="wi_horizon">&#xf047;</string>
+    <string name="wi_left">&#xf048;</string>
+    <string name="wi_night_fog">&#xf04a;</string>
+    <string name="wi_refresh_alt">&#xf04b;</string>
+    <string name="wi_refresh">&#xf04c;</string>
+    <string name="wi_right">&#xf04d;</string>
+    <string name="wi_sprinkles">&#xf04e;</string>
+    <string name="wi_strong_wind">&#xf050;</string>
+    <string name="wi_sunrise">&#xf051;</string>
+    <string name="wi_sunset">&#xf052;</string>
+    <string name="wi_thermometer_exterior">&#xf053;</string>
+    <string name="wi_thermometer_internal">&#xf054;</string>
+    <string name="wi_thermometer">&#xf055;</string>
+    <string name="wi_tornado">&#xf056;</string>
+    <string name="wi_up_right">&#xf057;</string>
+    <string name="wi_up">&#xf058;</string>
+    <string name="wi_wind_west">&#xf059;</string>
+    <string name="wi_wind_south_west">&#xf05a;</string>
+    <string name="wi_wind_south_east">&#xf05b;</string>
+    <string name="wi_wind_south">&#xf05c;</string>
+    <string name="wi_wind_north_west">&#xf05d;</string>
+    <string name="wi_wind_north_east">&#xf05e;</string>
+    <string name="wi_wind_north">&#xf060;</string>
+    <string name="wi_wind_east">&#xf061;</string>
+    <string name="wi_smoke">&#xf062;</string>
+    <string name="wi_dust">&#xf063;</string>
+    <string name="wi_snow_wind">&#xf064;</string>
+    <string name="wi_day_snow_wind">&#xf065;</string>
+    <string name="wi_night_snow_wind">&#xf066;</string>
+    <string name="wi_night_alt_snow_wind">&#xf067;</string>
+    <string name="wi_day_sleet_storm">&#xf068;</string>
+    <string name="wi_night_sleet_storm">&#xf069;</string>
+    <string name="wi_night_alt_sleet_storm">&#xf06a;</string>
+    <string name="wi_day_snow_thunderstorm">&#xf06b;</string>
+    <string name="wi_night_snow_thunderstorm">&#xf06c;</string>
+    <string name="wi_night_alt_snow_thunderstorm">&#xf06d;</string>
+    <string name="wi_solar_eclipse">&#xf06e;</string>
+    <string name="wi_lunar_eclipse">&#xf070;</string>
+    <string name="wi_meteor">&#xf071;</string>
+    <string name="wi_hot">&#xf072;</string>
+    <string name="wi_hurricane">&#xf073;</string>
+    <string name="wi_smog">&#xf074;</string>
+    <string name="wi_alien">&#xf075;</string>
+    <string name="wi_snowflake_cold">&#xf076;</string>
+    <string name="wi_stars">&#xf077;</string>
+    <string name="wi_moon_full">&#xf078;</string>
+    <string name="wi_moon_waxing_gibbous">&#xf079;</string>
+    <string name="wi_moon_waxing_quarter">&#xf07a;</string>
+    <string name="wi_moon_waxing_crescent">&#xf07b;</string>
+    <string name="wi_moon_young">&#xf07c;</string>
+    <string name="wi_moon_new">&#xf07d;</string>
+    <string name="wi_moon_old">&#xf07e;</string>
+    <string name="wi_moon_waning_crescent">&#xf080;</string>
+    <string name="wi_moon_waning_quarter">&#xf081;</string>
+    <string name="wi_moon_waning_gibbous">&#xf082;</string>
+    <string name="wi_night_partly_cloudy">&#xf083;</string>
+
+
+    <!-- data sources / filters -->
+    <string name="source_dribbble_popular">Popular Dribbbles</string>
+    <string name="source_dribbble_following">Dribbble following</string>
+    <string name="source_dribbble_user_likes">My Dribbble likes</string>
+    <string name="source_dribbble_user_shots">My Dribbble shots</string>
+    <string name="source_dribbble_recent">Recent Dribbbles</string>
+    <string name="source_dribbble_debuts">Dribbble Debuts</string>
+    <string name="source_dribbble_animated">Dribbble Animated</string>
+    <string name="source_dribbble_search_material_design">Material Design</string>
+
+    <!-- transition shared elements -->
+    <string name="transition_shot" translatable="false">shot</string>
+    <string name="transition_shot_title" translatable="false">shot_title</string>
+    <string name="transition_shot_background" translatable="false">shot_background</string>
+    <string name="transition_story_title" translatable="false">story_title</string>
+    <string name="transition_story_title_background" translatable="false">story_title_background</string>
+    <string name="transition_story_background" translatable="false">transition_story_background</string>
+    <string name="transition_dribbble_login" translatable="false">dribbble_login</string>
+    <string name="transition_designer_news_login" translatable="false">transition_designer_news_login</string>
+    <string name="transition_new_designer_news_post" translatable="false">new_designer_news_post</string>
+    <string name="transition_player_avatar" translatable="false">transition_player_avatar</string>
+    <string name="transition_player_background" translatable="false">transition_player_background</string>
+
+    <!-- content authorities -->
+    <string name="share_authority" translatable="false">com.winter.dreamhub.shareprovider</string>
+
+    <!-- dribbble shot screen -->
+    <!-- using strings for the number of views/likes as we run them through NumberFormat -->
+    <plurals name="likes">
+        <item quantity="zero">no likes</item>
+        <item quantity="one">%s like</item>
+        <item quantity="other">%s likes</item>
+    </plurals>
+    <plurals name="views">
+        <item quantity="zero">no views</item>
+        <item quantity="one">%s view</item>
+        <item quantity="other">%s views</item>
+    </plurals>
+    <string name="share">share</string>
+    <string name="prospects_cant_post">Sorry but prospects cannot comment :(</string>
+    <string name="bad_dribbble_shot_url">Can\'t open that link :(</string>
+
+    <string name="name_dots">dots</string>
+    <string name="name_lines">lines</string>
+
+    <string name="no_comments">no comments</string>
+    <string name="comment">Comment</string>
+    <string name="hint_reply">Reply</string>
+    <!-- names -->
+    <string name="comment_lines_add_group">comment_lines_add_group</string>
+    <string name="comment_lines">comment_lines</string>
+    <string name="comment_add">comment_add</string>
+
+    <!-- Introduction -->
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_onboarding_screen_done">Done</string>
+    <string name="onboarding_screen_bundles_snippet">Use bundles to group messages and get clutter out of your way.</string>
+    <string name="onboarding_screen_reminders_snippet">Add reminders to the top of your inbox.</string>
+    <string name="onboarding_screen_snooze_snippet">Snooze emails and reminders to come back to your inbox when you want.</string>
+    <string name="onboarding_screen_smartmail_snippet_first_time">Learn %3$d things about what you can do in Inbox, See highlights instantly. No need to dig through emails.</string>
+    <string name="onboarding_screen_smartmail_snippet_subsequent_times">See highlights instantly. No need to dig through emails.</string>
+
+    <string name="onboarding_bundle_configurator_title_text">What would you like to bundle?</string>
+    <string name="onboarding_bundle_configurator_summary_text">Unbundled messages appear individually in the inbox. You can always change this later.</string>
+    <string name="onboarding_bundle_configurator_bundle_grouped">Bundled</string>
+    <string name="onboarding_bundle_configurator_bundle_individual">Shown individually</string>
+    <string name="onboarding_bundle_configurator_all_bundles_skip_inbox_error_message">All your bundles are already set up to Skip the inbox! As these messages arrive they will be marked as done. You can change this for each bundle in its settings.</string>
+
+    <!-- DateTimePicker -->
+    <!-- Pattern for the v1 month and year string (localised) -->
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+
+    <!-- Label forf date or time [CHAR LIMIT=30] -->
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <!--
+         Content description for the second selector in the time picker, which displays
+         selectable five-second intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours">Select hours</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes">Select minutes</string>
+    <!-- Accessibility announcement for second circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_seconds">Select seconds</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="mdtp_item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> selected</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">00</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+
+    <!-- String Trips-->
+    <string name="destination_search_explore">Explore</string>
+    <string name="no_trips_text">To add a new trip, forward your travel confirmation emails to your Gmail account, or create a trip manually.</string>
+    <string name="cd_trip_item_download_switch">Download trip</string>
+    <string name="things_to_do_tile_title">Things to do</string>
+    <string name="saved_places_tile_title">Saved places</string>
+    <string name="reservations_tile_title">Reservations</string>
+    <string name="tnt_tile_title">Getting around</string>
+    <string name="edit_trip_menu_label">Edit</string>
+    <string name="delete_trip_from_google_menu_item">Delete from Google</string>
+    <string name="cd_things_to_do_search_fab">Search</string>
+    <string name="things_to_do_page_title">Things to do</string>
+    <string name="setting_page_title">Setting</string>
+    <string name="cd_things_to_do_save_landmark">Save landmark</string>
+    <string name="cd_things_to_do_remove_saved_landmark">Remove landmark from saved places</string>
+    <string name="cd_activities_label_start_new_itinerary">Start a new day plan</string>
+
+    <string name="place_open_until">Open Until</string>
+    <string name="distance_to_entity_text_km">%1$s km</string>
+    <string name="distance_to_entity_text_mi">%1$s mi</string>
+    <string name="landmark_list_feedback">Suggest an attraction</string>
+
+    <string name="landmark_details_call_label">Call</string>
+    <string name="landmark_details_directions_label">Directions</string>
+    <string name="landmark_details_website_label">Website</string>
+    <string name="landmark_details_save_label">Save</string>
+    <string name="landmark_details_saved_label">Saved</string>
+    <string name="landmark_detail_page_top_reviews_label">Top reviews</string>
+    <string name="landmark_detail_page_review_summary_label">Review summary</string>
+
+    <string name="itinerary_additional_information">Additional information</string>
+    <string name="itinerary_open_hours_open_everyday">Typically these sights are open every day.</string>
+    <string name="more_restaurants">More</string>
+    <string name="restaurants_filter_ui_choose_time_and_day">Choose time and day</string>
+    <string name="restaurants_filter_ui_done">Done</string>
+    <string name="close_button_label">Close</string>
+    <string name="restaurants_day_of_the_week">Day of the week</string>
+    <string name="restaurants_day_of_the_week_menu">Tap to pick a day</string>
+    <string name="restaurants_duration_afternoon">Afternoon</string>
+    <string name="restaurants_duration_full_day">Full day</string>
+    <string name="restaurants_duration_morning">Morning</string>
+
+
+    <!-- LoginActivity. -->
+    <string name="cancel">Cancel</string>
+    <string name="register_button_label">Đăng Kí</string>
+    <string name="login_button_label">Đăng Nhập</string>
+    <string name="get_accounts_permission_primer_message">Autocomplete email addresses</string>
+    <string name="logged_in_as">Logged in as</string>
+    <string name="link_register_label">No account yet? Create account</string>
+    <string name="link_login_label">Already a member? Login</string>
+    <string name="first_name">Tên</string>
+    <string name="last_name">Họ</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="phone">Điện thoại</string>
+    <string name="email_address">Địa chỉ email</string>
+    <string name="earn_points_text">Nhập mật khẩu để kiếm điểm</string>
+    <string name="password">Mật khẩu</string>
+    <string name="show_password">Hiển thị mật khẩu</string>
+    <string name="signup">Create Account</string>
+    <string name="google_plus_signin">Sign In with Google</string>
+    <string name="facebook_signin">Sign In with Facebook</string>
+    <string name="facebook_app_id">848755468555676</string>
+    <string name="format_url_facebook_permissions">https://%1$s/webservices/facebook.asmx/GetFbAppPermissionsJsonp?callback=</string>
+    <string name="format_url_facebook_profile_image">https://graph.facebook.com/%1$s/picture?type=large</string>
+
+    <string name="terms_and_conditions_web_link">Bằng cách ấn %2$s, bạn đồng ý với Winter &lt;a href=http://%1$s/info/agreement.aspx>Điều khoản sử dụng&lt;/a> and &lt;a href=http://%1$s/info/privacypolicy.aspx>Chính sách riêng tư.&lt;/a></string>
+    <string name="app_web_link">winter.com</string>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="coffeetea">Coffee &amp; Tea</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="things_to_do">Things to do</string>
+    <string name="search_label">Search</string>
+    <string name="title_search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="accessibility_google_search_button">Google Search</string>
+    <string name="accessibility_voice_search_button">Voice Search</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="apply_button">Apply</string>
+
+    <!--Dashboard-->
+    <string name="flight_alternative_flights">Find alternative flights</string>
+    <string name="flight_arrive">Arrives %1$s</string>
+    <string name="flight_arrive_label">Arrive</string>
+    <string name="flight_arrive_time">Arrives %1$s</string>
+    <string name="flight_arrive_time_past">Arrived %1$s</string>
+    <string name="flight_check_in">Check-in now</string>
+    <string name="flight_depart_label">Depart</string>
+    <string name="flight_depart_time">Departs %1$s</string>
+    <string name="flight_departs_at_time">Departs at %1$s</string>
+    <string name="flight_gate">Gate</string>
+    <string name="flight_modify">Modify reservation</string>
+    <string name="flight_number">Flight %1$s of %2$s</string>
+    <string name="flight_reservation">Flight reservation</string>
+    <string name="flight_status_boards_at_time">Boards at %1$s</string>
+    <string name="flight_status_cancelled">Cancelled</string>
+    <string name="flight_status_delayed">Delayed</string>
+    <string name="flight_status_diverted">Diverted</string>
+    <string name="flight_status_landed">Landed</string>
+    <string name="flight_status_not_operational">Not operational</string>
+    <string name="flight_status_notification">%1$s %2$s</string>
+    <string name="flight_status_notification_cancelled">Cancelled: %1$s %2$s</string>
+    <string name="flight_status_notification_delayed_delay_unknown">Delayed: %1$s %2$s</string>
+    <string name="flight_status_notification_delayed_v2">Delayed %3$s: %1$s %2$s</string>
+    <string name="flight_status_on_time">On-time</string>
+    <string name="flight_status_redirected">Redirected</string>
+    <string name="flight_status_scheduled">Scheduled</string>
+    <string name="flight_status_scheduled_time">Scheduled at %1$s</string>
+    <string name="flight_status_summary_with_extra">"&lt;font color='%1$s'>&lt;b>%2$s&lt;/b>&lt;/font> - %3$s"</string>
+    <string name="flight_status_unknown">Unknown</string>
+    <string name="flight_stops">Stops at %1$s</string>
+    <string name="flight_terminal">Terminal</string>
+
+    <string name="accessibility_menu_button">Card menu</string>
+    <string name="accessibility_android_for_work_icon">Work profile</string>
+
+
+    <!-- Shared Labels. These labels are shared among the activities. -->
+    <skip />
+    <!-- This is the label for the title or name of an event -->
+    <string name="what_label">What</string>
+    <!-- This is the label for the location of an event -->
+    <string name="where_label">Where</string>
+    <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
+    <string name="when_label">When</string>
+    <!-- This is the label for the timezone of an event [CHAR LIMIT=30] -->
+    <string name="timezone_label">Time zone</string>
+    <!-- This is the label for the Guests/Attendees of an event -->
+    <string name="attendees_label">Guests</string>
+    <!-- Text to show when an event starts on the current day -->
+    <!--<string name="today">Today</string>-->
+    <!-- Text to show when an event starts on the next day -->
+    <!--<string name="tomorrow">Tomorrow</string>-->
+    <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="today_at_time_fmt">"Today at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="tomorrow_at_time_fmt">"Tomorrow at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+
+    <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
+         for all the choices about how often an event repeats (including the choice
+         of not repeating). -->
+    <!--<string name="repeats_label">Repetition</string>-->
+    <!-- Title of event when no explicit title is specified by the user -->
+    <string name="no_title_label">(No title)</string>
+
+    <!-- Reminder format strings -->
+    <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 minute</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes</item>
+    </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
+    <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 min</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
+    </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
+    <plurals name="Nhours">Nhours
+        <!-- This is the label for a 1-hour reminder. -->
+        <item quantity="one">1 hour</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours</item>
+    </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
+    <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <item quantity="one">1 day</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+    <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
+    <plurals name="weekN">
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
+        <item quantity="other">week <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other">&lt;g id="count">%d&lt;/g> weeks</item>
+        <item quantity="one">1 week</item>
+    </plurals>
+
+    <!-- Menu items: -->
+    <skip />
+    <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
+    <!--<string name="calendar_refresh">"Refresh"</string>-->
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
+    <string name="show_day_view">"Show day"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
+    <string name="agenda_view">"Agenda"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
+    <string name="day_view">"Day"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
+    <string name="week_view">"Week"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
+    <string name="month_view">"Month"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
+    <string name="event_view">"View event"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
+    <string name="event_create">"New event"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
+    <string name="event_edit">"Edit event"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
+    <string name="event_delete">"Delete event"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
+    <!--<string name="goto_today">"Today"</string>-->
+    <!-- This is a label on a menu item. Pressing this menu
+     item opens new dialog shown the date that the user wants to go. -->
+    <string name="goto_date">"Go to…"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to see the list of calendars that he is viewing and to then add
+         or remove selected calendars. -->
+
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
+    <string name="menu_preferences">"Settings"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <string name="menu_select_visible_calendars">"Calendars to display"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <string name="search">"Search"</string>
+    <!-- This is a label on a menu item. Pressing this menu item hides
+         the navigation controls on the right side. [CHAR LIMIT=20] -->
+    <string name="hide_controls">"Hide controls"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         navigation controls on the right side. [CHAR LIMIT=20] -->
+    <string name="show_controls">"Show controls"</string>
+
+    <!-- Month view -->
+    <skip />
+
+    <!-- Select Visible Calendars activity -->
+    <skip />
+    <!-- Title of "My calendars" screen -->
+    <string name="select_visible_calendars_title">"Calendars to display"</string>
+    <!-- Synced and visible status message -->
+
+    <!-- Synced but not visible status message -->
+
+    <!-- not Synced or visible status message -->
+
+    <!-- Synced status message displayed when the given calendar is stored/synced on the device
+        [CHAR LIMIT=60] -->
+    <string name="synced"> synced</string>
+    <!-- Not synced status message displayed when the given calendar is not stored/synced on the
+        device [CHAR LIMIT=60] -->
+    <string name="not_synced"> not synced</string>
+    <!-- Message displayed to user when an account with Calendars is not being auto-synced
+        [CHAR LIMIT=120]-->
+    <string name="acct_not_synced">This account isn\'t being synced so your calendars may
+        not be up-to-date.</string>
+    <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
+    <string name="accounts">Accounts &amp; sync</string>
+
+    <!-- Select Synced Calendars activity -->
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+    <string name="select_synced_calendars_title">Calendars to sync</string>
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+    <string name="select_synced_calendars_button">Calendars to sync</string>
+
+    <!-- Event edit activity -->
+    <skip />
+    <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
+
+    <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
+    <string name="hint_what">"Event name"</string>
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+    <string name="hint_where">"Location"</string>
+    <!-- Default value of Description field (as a hint to the user) [CHAR LIMIT=15]-->
+    <string name="hint_description">"Description"</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+    <string name="hint_attendees">"Guests"</string>
+    <!-- Toast message displayed when a new event is created -->
+    <string name="creating_event">"Event created."</string>
+    <!-- Toast message displayed when an existing event is saved after being modified -->
+    <string name="saving_event">"Event saved."</string>
+    <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
+    <string name="empty_event">"Empty event not created."</string>
+    <!-- Toast message displayed when a new event with guests is created -->
+    <string name="creating_event_with_guest">"Invitations will be sent."</string>
+    <!-- Toast message displayed when an existing event with guests is saved after being modified -->
+    <string name="saving_event_with_guest">"Updates will be sent."</string>
+    <!-- Title of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+
+    <!-- Body of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+
+
+    <!-- Create event dialog -->
+    <skip />
+    <!-- Create event dialog save button [CHAR LIMIT=10] -->
+    <string name="create_event_dialog_save">Save</string>
+
+    <!-- The alert toast is not actually being displayed for some reason. -->
+    <skip />
+    <!-- the title of the alert/notification activity -->
+    <string name="alert_title">Calendar notifications</string>
+    <!-- Notification window messages: -->
+    <skip />
+
+    <!-- Event info/edit screen labels:-->
+    <skip />
+    <!-- This is the title of the screen used to view the details of an event -->
+    <string name="event_info_title">View event</string>
+    <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
+    <string name="event_info_title_invite">Meeting invitation</string>
+
+    <!-- EditEventActivity specific strings: -->
+    <skip />
+    <!-- Events have a start date/time and an end date/time. The display shows
+         the start and end times like 'From start date To end date'. This is the
+         label before the 'end date'. -->
+    <!--<string name="edit_event_to_label">To</string>-->
+    <!-- Events have a start date/time and an end date/time. The display shows
+         the start and end times like 'From start date To end date'. This is the
+         label before the 'start date'. -->
+    <!--<string name="edit_event_from_label">From</string>-->
+    <!-- Check box label that specifies if this is an all-day event -->
+    <string name="edit_event_all_day_label">All day</string>
+    <!-- Label for choosing one of the calendars -->
+    <string name="edit_event_calendar_label">Calendar</string>
+    <!-- Menu item to show all choices [CHAR LIMIT=22]-->
+    <!--<string name="edit_event_show_all">Show all</string>-->
+    <!-- Label for the event description -->
+    <!--<string name="description_label">Description</string>-->
+    <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
+    <string name="presence_label">Show me as</string>
+    <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
+    <string name="privacy_label">Privacy</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+    <string name="reminders_label">Add reminder</string>
+    <!-- Title of alert shown if the user tries to create an event and has no calendars -->
+    <string name="no_syncable_calendars">No calendars</string>
+    <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
+    <string name="no_calendars_found">Before you can add an event, you must add at least one Calendar account to your device and make a calendar visible. Touch Add Account to add an account (if you just added an account, wait for it to finish syncing and try again). Or touch Cancel and make sure at least one calendar is visible.</string>
+    <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+    <string name="create_an_account_desc">"Calendar works better with an Account.\n\n\u2022 Access it from any web browser\n\u2022 Back up your events securely"</string>
+    <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
+    <string name="add_account">Add account</string>
+
+    <!-- View Event -->
+    <skip />
+    <!-- Label for which calendar an event is part of -->
+    <string name="view_event_calendar_label">Calendar:</string>
+    <!-- Label for the event organizer -->
+    <string name="view_event_organizer_label">Organizer:</string>
+    <!-- Label for the local timezone -->
+
+    <!-- Label for showing event color picker -->
+    <string name="choose_event_color_label">Choose event color</string>
+    <!-- Title for event color picker dialog -->
+    <string name="event_color_picker_dialog_title">Event Color</string>
+    <!-- Label for button which sets event color to default calendar color -->
+    <string name="event_color_set_to_default">Set to default calendar color</string>
+
+    <!-- Title for calendar color picker dialog -->
+    <string name="calendar_color_picker_dialog_title">Calendar Color</string>
+    <!-- Description for calendar color squares, which bring up the color picker. -->
+    <string name="calendar_square_color_picker_description">Color picker</string>
+
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+    <string name="view_event_response_label">Attending?</string>
+    <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
+    <string name="response_yes">Yes</string>
+    <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
+    <string name="response_maybe">Maybe</string>
+    <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
+    <string name="response_no">No</string>
+    <!-- Label for emailing attendees -->
+    <string name="email_guests_label">Email guests</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
+    <string name="email_organizer_label">Email organizer</string>
+    <!-- This is shown in the popup picker when emailing attendees -->
+    <string name="email_picker_label">Email with</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title -->
+    <string name="email_subject_prefix" translatable="false">Re:\u0020</string>
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+    <!--<string name="event_not_found">"Event not found."</string>-->
+
+    <!-- Notification label for getting a map of the location. -->
+    <string name="map_label">Map</string>
+    <!-- Notification label for calling a phone number in the location. -->
+    <string name="call_label">Call</string>
+
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+    <string name="quick_response_settings">Quick responses</string>
+    <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
+    <string name="quick_response_settings_summary">Edit default responses when emailing guests</string>
+    <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+    <string name="quick_response_settings_title">Edit quick responses</string>
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+    <string name="quick_response_settings_edit_title">Quick response</string>
+
+    <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
+    <string name="quick_response_dialog_title">Choose quick response</string>
+    <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
+    <string name="quick_response_email_failed">Failed to find an email program</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
+    <string-array name="quick_response_defaults">
+        <item>Running just a couple of minutes late.</item>
+        <item>Be there in about 10 minutes.</item>
+        <item>Go ahead and start without me.</item>
+        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    </string-array>
+    <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
+    <string name="quick_response_custom_msg">Write your own\u2026</string>
+
+    <!-- Event Info strings-->
+    <!-- Time Zone Label [CHAR LIMIT=12]-->
+
+    <!-- Repetition Label [CHAR LIMIT=12]-->
+
+    <!-- Organizer Label [CHAR LIMIT=12]-->
+    <string name="event_info_organizer">Organizer:</string>
+    <!-- Reminders label [CHAR LIMIT=15]-->
+    <string name="event_info_reminders_label">Reminders</string>
+
+    <!-- Agenda View strings -->
+    <skip />
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_today">today, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_yesterday">yesterday, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_tomorrow">tomorrow, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown while the calendar events are being loading to the screen. -->
+    <string name="loading">Loading\u2026</string>
+    <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
+    <string name="show_older_events">Touch to view events before <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
+    <string name="show_newer_events">Touch to view events after <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+
+    <!-- Search activity strings -->
+    <skip />
+    <!-- Title of the search screen [CHAR LIMIT=30] -->
+    <string name="search_title">Search my calendars</string>
+
+    <!-- Button labels: -->
+    <skip />
+    <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
+    <!--<string name="edit_event_label">"Details"</string>-->
+    <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
+    <!--<string name="edit_label">"Edit"</string>-->
+    <!-- The button label for deleting an event -->
+    <string name="delete_label">"Delete"</string>
+    <!-- A menu item for deleting an event -->
+
+    <!-- The button label for saving an event -->
+    <string name="save_label">Done</string>
+    <!-- The button label for discarding changes to an event -->
+    <string name="discard_label">Cancel</string>
+
+    <!-- Button labels on expanded notification reminders: -->
+    <skip />
+    <!-- The button label for making the reminder alarms go away temporarily.
+         The reminder alarms will fire off again in 5 minutes. -->
+    <string name="snooze_all_label">"Snooze all"</string>
+    <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
+    <string name="dismiss_all_label">"Dismiss all"</string>
+    <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
+    <string name="snooze_label">"Snooze"</string>
+
+    <!-- Repetition dialog options: -->
+    <skip />
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
+    <string name="does_not_repeat">One-time event</string>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+    <string name="endByDate">; until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+    <plurals name="endByCount">
+        <item quantity="one">; for one time</item>
+        <item quantity="other">; for <xliff:g id="number">%d</xliff:g> times</item>
+    </plurals>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+    <plurals name="daily">
+        <item quantity="one">Daily</item>
+        <item quantity="other">Every <xliff:g id="number">%d</xliff:g> days</item>
+    </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
+    <!--<string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>-->
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+    <plurals name="weekly">
+        <item quantity="one">Weekly on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    </plurals>
+
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
+    <string name="monthly">Monthly</string>
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
+    <string name="yearly_plain">Yearly</string>
+    <!-- Example: "Monthly (on day 15)" -->
+    <string name="monthly_on_day">"Monthly (on day <xliff:g id="day_of_month">%s</xliff:g>)"</string>
+    <!-- Example: "Yearly (on April 15)" -->
+    <string name="yearly">"Yearly (on <xliff:g id="dates">%s</xliff:g>)"</string>
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
+
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
+    <string name="custom" product="default">"Custom (can\'t customize on phone)"</string>
+
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
+    <string name="modify_event">Change only this event</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
+    <string name="modify_all">Change all events in the series</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
+    <string name="modify_all_following">Change this and all future events</string>
+
+    <!-- Dialogs -->
+
+    <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
+    <string name="new_event_dialog_label">"New event"</string>
+    <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
+    <string name="new_event_dialog_option">"New event"</string>
+    <!-- Confirmation dialog message -->
+    <skip />
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
+    <string name="delete_this_event_title">Delete this event?</string>
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
+    <string name="delete_recurring_event_title">Delete <xliff:g id="eventtitle">%s</xliff:g>?</string>
+    <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
+    <string name="change_response_title">Change response</string>
+
+    <!-- This the title of a menu for General Preferences.
+         Pressing the menu item lets user to view and edit his general settings
+         (or preferences) [CHAR LIMIT=30] -->
+    <string name="menu_general_preferences">General settings</string>
+
+    <!-- This the title of a menu for "About Calendar" Preferences.
+         Pressing the menu item lets user to view the current settings
+         [CHAR LIMIT=30] -->
+    <string name="menu_about_preferences">About Etar</string>
+
+    <!-- This is the title of the screen for setting user preferences. -->
+    <string name="preferences_title">"Settings"</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
+    <string name="preferences_general_title">Calendar view setting</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
+    <string name="preferences_theme">Theme</string>
+    <string name="preferences_light_theme">Light</string>
+    <string name="preferences_dark_theme">Dark</string>
+    <string name="preferences_reminder_title">Notifications \u0026 reminders</string>
+    <!-- Settings check box label to hide events that the user has declined to attend -->
+    <string name="preferences_hide_declined_title">Hide declined events</string>
+    <!-- Settings week start label to start week on specific day-->
+    <string name="preferences_week_start_day_title">Week starts on</string>
+    <!-- Title of popup for week start day setting-->
+    <string name="preferences_week_start_day_dialog">Week starts on</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="preferences_week_start_day_default">-1</string>
+
+    <string name="preferences_days_per_week_title">Days per week</string>
+    <string name="preferences_days_per_week_dialog">Days per week</string>
+    <string name="preferences_days_per_week_default">7</string>
+
+    <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
+    <string name="preferences_clear_search_history_title">Clear search history</string>
+    <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
+    <string name="preferences_clear_search_history_summary">Remove all the searches you\'ve performed</string>
+    <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
+    <string name="search_history_cleared">Search history cleared.</string>
+    <!-- Settings check box label to enable or disable notifications -->
+    <string name="preferences_alerts_title">Notifications</string>
+    <!-- Settings dialog label that specifies when the phone should vibrate -->
+    <string name="preferences_alerts_vibrateWhen_title">Vibrate</string>
+    <!-- The old value for enabling vibration. used only for migrating -->
+    <string name="prefDefault_alerts_vibrate_true" translatable="false">always</string>
+    <!-- Title of ringtone selector dialog -->
+    <string name="preferences_alerts_ringtone_title">Sound</string>
+    <!-- Title of check box label to enable or disable pop-up notifications -->
+    <string name="preferences_alerts_popup_title">Pop-up notification</string>
+    <!-- List item label for setting the default number of reminder minutes -->
+    <string name="preferences_default_reminder_title">Default reminder time</string>
+    <!-- Title of dialog for setting the default number of reminder minutes -->
+    <string name="preferences_default_reminder_dialog">Default reminder time</string>
+    <!-- Default value for the number of reminder minutes -->
+    <string name="preferences_default_reminder_default">10</string>
+    <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
+    <string name="preferences_use_home_tz_title">Use home time zone</string>
+    <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
+    <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
+    <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
+    <string name="preferences_home_tz_title">Home time zone</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="preferences_home_tz_default">America/Los_Angeles</string>
+
+    <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
+    <string name="preferences_show_week_num_title">Show week number</string>
+
+    <!-- This is the title of a section in the Settings screen for "About" this application -->
+    <string name="preferences_about_title">About</string>
+    <!-- Build version of the application -->
+    <string name="preferences_build_version">Build version</string>
+
+    <!-- Widget -->
+    <skip />
+    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <string name="gadget_title">Calendar</string>
+
+    <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
+    <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+        <item quantity="one">"+1"</item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
+        <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
+    </plurals>
+
+    <!-- Caption to show on gadget when there are no upcoming calendar events -->
+    <string name="gadget_no_events">No upcoming calendar events</string>
+
+    <!-- Text to show on gadget when an event is currently in progress -->
+
+
+    <!-- Text to show on gadget when an all-day event is in progress -->
+
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="tardis">TARDIS</string>
+
+    <!-- Experimental settings [CHAR LIMIT = 30]-->
+    <string name="preferences_experimental_category">Experimental</string>
+
+    <!-- Reminders settings [CHAR LIMIT = 30]-->
+    <string name="preferences_reminders_category">Reminders</string>
+    <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
+    <string name="preferences_reminders_responded_label">Skip Reminders</string>
+    <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
+    <string name="preferences_reminders_responded_dialog">Skip Reminders</string>
+    <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_label">Quiet hours</string>
+    <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
+    <string name="preferences_reminders_quiet_hours_description">Silence event reminders during specified time.</string>
+    <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_start">Quiet hours start time</string>
+    <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
+    <string name="preferences_reminders_quiet_hours_end">Quiet hours end time</string>
+
+    <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
+    <string name="preferences_debug_category">Debugging</string>
+
+    <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
+    <string name="copy_db">Send database</string>
+
+    <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+    <string name="directory_searching_fmt">Searching <xliff:g id="domain">%s</xliff:g>\u2026</string>
+
+    <!-- Accessibility Events -->
+    <!-- Strings that describes actions for buttons without text -->
+    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+
+    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_remove_attendee">Remove attendee</string>
+    <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_start_date">Start date</string>
+    <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_start_time">Start time</string>
+    <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_end_date">End date</string>
+    <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_end_time">End time</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_time_zone">Time zone</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_pick_recurrence">Repeat event</string>
+    <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_add_reminder">Add reminder</string>
+    <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_remove_reminder">Remove reminder</string>
+    <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
+    <string name="accessibility_add_attendee">Add attendee</string>
+    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <string name="accessibility_sync_cal">Sync calendar</string>
+    <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
+    <string name="accessibility_all_day">All day event</string>
+    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+
+    <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
+    <string name="accessibility_repeats">Repetition</string>
+    <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_time">Reminder time</string>
+    <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_type">Reminder type</string>
+    <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_showmeas">Show me as</string>
+    <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
+    <string name="accessibility_reminder_privacy">Privacy</string>
+    <!-- Calendar notification [CHAR LIMIT = NONE]-->
+    <!--<string name="acessibility_cal_notification">Calendar Notification</string>-->
+    <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
+    <string name="acessibility_snooze_notification">Snooze Notification</string>
+    <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+    <string name="accessibility_email_notification">Email guests</string>
+
+    <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
+    <string name="day_view_new_event_hint">+ New event</string>
+
+    <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
+    <string name="template_announce_item_index">Event <xliff:g id="item_index">%1$s</xliff:g> of <xliff:g id="item_count">%2$s</xliff:g>.</string>
+
+    <!-- number of events in the notification bar -->
+    <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
+        <item quantity="one">1 event</item>
+        <!-- This is the label for 2 or more events. -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+    <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
+        <item quantity="one">+1 event</item>
+        <!-- This is the label for 2 or more events. -->
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+    <!--<string name="acessibility_selected_marker_description">Selected event</string>-->
+
+    <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+    <string name="do_not_check">Do NOT check -></string>
+
+    <!-- Dialog title for recurrence picker for configuring a repeating event[CHAR LIMIT=20] -->
+    <string name="recurrence_dialog_title">Repeat</string>
+    <!-- Dialog title for recurrence picker when one-time event is selected [CHAR LIMIT=20] -->
+    <string name="recurrence_dialog_title_never">Never repeats</string>
+
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> day</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> week</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> weeks</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> month</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> months</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> year</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> years</item>
+    </plurals>
+
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_continously">Forever</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+    <string name="recurrence_end_date_label">Until a date</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_date">Until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+    <string name="recurrence_end_count_label">For a number of events</string>
+
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <xliff:g id="event_count">%d</xliff:g> event</item>
+        <item quantity="other">For <xliff:g id="event_count">%d</xliff:g> events</item>
+    </plurals>
+
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+    <!--<string name="acessibility_recurrence_choose_end_date_description">change end date</string>-->
+
+    <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
+    <string name="notification_sender_id" translatable="false"></string>
+
+    <string name="preferences_back_description"><g example="General" id="title">%s</g>, navigate back</string>
+    <string name="user_rejected_calendar_write_permission">Etar requires calendar read and write permissions to work properly. Please try again.</string>
+    <string name="calendar_permission_not_granted">Sorry this feature can\'t work. Etar requires calendar read and write permissions to work properly</string>
+
+    <string name="the_day_before_at">The day before at %s</string>
+    <string name="on_the_day_at">On the day at %s</string>
+    <string name="at_time">At %s</string>
+    <string name="at_time_of_event">At time of event</string>
+    <string name="all_day_reminder_time" formatted="false"><g id="duration">%s</g> before at <g id="time">%s</g></string>
+    <string name="reminder_full_item" formatted="false"><g id="time">%s</g> as <g id="method">%s</g></string>
+    <string name="timed_reminder_time"><g id="duration">%s</g> before</string>
+
+    <string name="custom_notification_override_announcement">Value changed to <g example="4" id="amount">%s</g></string>
+
+    <string name="as_email">As email</string>
+    <string name="as_notification">As notification</string>
+    <string name="reminders_calendar_name">Reminders</string>
+    <string name="event_forward">Forward</string>
+    <string name="load_event">Load Event</string>
+    <string name="load_groove">Load Groove</string>
+
+    <plurals name="days">
+        <item quantity="other">Days</item>
+        <item quantity="one">Day</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="other">Days before</item>
+        <item quantity="one">Day before</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">Hours</item>
+        <item quantity="one">Hour</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="other">Hours before</item>
+        <item quantity="one">Hour before</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">Minutes</item>
+        <item quantity="one">Minute</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="other">Minutes before</item>
+        <item quantity="one">Minute before</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">Weeks</item>
+        <item quantity="one">Week</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="other">Weeks before</item>
+        <item quantity="one">Week before</item>
+    </plurals>
+
+    <plurals name="duration_hours">
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
+    </plurals>
+
+    <plurals name="duration_minutes">
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+
+    <string name="session_live_streamed">Live streamed</string>
+
+    <string name="destination_canceled_download_status">Removing %1s</string>
+    <string name="destination_download_status">Download %1s</string>
+    <string name="destination_downloaded_status">%1s available offline</string>
+    <string name="destination_downloading_status">Downloading %1s</string>
+    <string name="destination_downloading_status_progress" formatted="false">Downloading %1s (%2d%%)</string>
+
+
+    <!-- winter login -->
+    <string name="winter_login">Log in to Winter</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login_action">Log in</string>
+    <string name="login_failed">Login failed</string>
+    <string name="sign_out">Sign out</string>
+    <string name="not_now">Not now</string>
+
+    <string name="CLOSED">Closed</string>
+    <string name="OPEN_24_HOURS">Open 24 hours</string>
+    <string name="PLACE_CLOSED_AT">Closed at %s</string>
+    <string name="PLACE_CLOSED_NOW">Closed now</string>
+    <string name="PLACE_CLOSED_PERIOD">Closed</string>
+    <string name="PLACE_CLOSED_TODAY">Closed today</string>
+    <string name="PLACE_CLOSES_AT">Closes at %s</string>
+    <string name="PLACE_CLOSING_SOON">Closing soon: %s</string>
+    <string name="PLACE_OPENS_AT">Opens at %s</string>
+    <string name="PLACE_OPEN_NOW">Open now</string>
+    <string name="PLACE_OPEN_TODAY">Open today: %s</string>
+    <string name="PLACE_OPEN_UNTIL">Open until %s</string>
+    <string name="PLACE_OPEN_UNTIL_PERIOD">Open until %s.</string>
+    <string name="PLACE_PERMANENTLY_CLOSED">Permanently closed</string>
+    <string name="PLACE_RELOCATED">Moved</string>
+    <string name="PLACE_REOPENS_AT">Reopens at %s</string>
+    <string name="MONDAY">Monday</string>
+    <string name="MONDAY_SHORT">Mon</string>
+    <string name="TUESDAY">Tuesday</string>
+    <string name="TUESDAY_SHORT">Tue</string>
+    <string name="WEDNESDAY">Wednesday</string>
+    <string name="WEDNESDAY_SHORT">Wed</string>
+    <string name="THURSDAY">Thursday</string>
+    <string name="THURSDAY_SHORT">Thu</string>
+    <string name="FRIDAY">Friday</string>
+    <string name="FRIDAY_SHORT">Fri</string>
+    <string name="SATURDAY">Saturday</string>
+    <string name="SATURDAY_SHORT">Sat</string>
+    <string name="SUNDAY">Sunday</string>
+    <string name="SUNDAY_SHORT">Sun</string>
+
+
+    <string name="amenities">Amenities</string>
+    <string name="price_per_night">Price/room/night starts from</string>
+    <string name="top_deal_label">Top Deal</string>
+    <string name="call_now_label">Call Now</string>
+    <string name="view_deal_label">View Deal</string>
+
+    <string name="reviews_label">Reviews</string>
+    <string name="sending_label">Saving...</string>
+    <!-- Accessibility announcement to confirm the feedback rating made for a session by the user. -->
+    <string name="feedback_rating_confirmation">Your rating: %1$d out of %2$d stars"</string>
+
+    <!-- Accessibility announcement for an item in the custom feedback rating view. For example, "one star".  -->
+    <string name="feedback_rating_value">%1$d star</string>
+    <string name="no_search_results">No results for\n“%1$s”</string>
+
+
+    <!-- about screen -->
+    <string name="about_0">Plaid is a source of design news &amp; inspiration that serves as a concrete example of [material design principles](https://www.google.com/design/spec/material-design/introduction.html#introduction-principles). Plaid pulls data from [Designer News](https://www.designernews.co/), [Dribbble](https://dribbble.com/) &amp; [Product Hunt](https://www.producthunt.com/); it is in no way an official client for these services nor endorsed by them. It is rather good&#160;though.</string>
+    <string name="about_1">Plaid is written by Nick&#160;Butcher</string>
+    <string name="about_2">[Twitter](http://twitter.com/crafty) | [Google+](http://google.com/+NickButcher)</string>
+    <string name="about_3">The source code is available on [GitHub](http://github.com/nickbutcher/plaid)</string>
+    <string name="about_icon_0">"Plaid\'s icon is lovingly crafted by the inimitable Roman&#160;Nurik"</string>
+    <string name="about_icon_1">[Twitter](http://twitter.com/romannurik) | [Google+](http://google.com/+RomanNurik)</string>
+    <string name="about_libs_intro">Plaid is built with the help of these awesome&#160;libraries</string>
+    <string name="about_lib_link">website</string>
+
+    <string name="dialog_sign_in_content">Sign in to save events, reserve seats and rate sessions (if an attendee). Actions will be synced from your account across app and site.</string>
+    <string name="dialog_sign_in_title">Sign in to customize your schedule</string>
+    <string name="dialog_sign_out_content">All saved events, seat reservations and session ratings (if an attendee) remain synced to your account.</string>
+    <string name="dialog_sign_out_title">Sign out?</string>
+
+    <string name="title_info">Info</string>
+    <string name="filters">Filters</string>
+    <string name="a11y_clear_tag_filters">Clear filters</string>
+    <string name="a11y_collapse_filters_sheet">Lower filters sheet</string>
+    <string name="a11y_filter_applied">%1s filter applied</string>
+    <string name="a11y_filter_not_applied">%1s filter not applied</string>
+    <string name="reset">Reset</string>
+
+</resources>

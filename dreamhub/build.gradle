@@ -1,0 +1,166 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'roadtolegend'
+            storeFile file('D:/RoadToLegend/dreamhub/roadtolegend.jks')
+        }
+    }
+    compileSdkVersion 'android-P'
+    defaultConfig {
+        applicationId "com.winter.dreamhub"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        resConfig "en"
+        buildConfigField("String", "GCM_API_KEY", "\"${gcm_api_key}\"")
+        buildConfigField("String", "GCM_SENDER_ID", "\"${gcm_sender_id}\"")
+        buildConfigField("String", "GCM_SERVER_URL", "\"${production_gcm_server_endpoint}\"")
+
+        buildConfigField("String", "INPERSON_TIMEZONE", "\"${inperson_timezone}\"")
+
+        resValue("string", "pref_session_feedback_reminders_enabled", "pref_session_feedback_reminders_enabled_${conf_version}")
+        buildConfigField("String", "PREF_SESSION_FEEDBACK_REMINDERS_ENABLED", "\"pref_session_feedback_reminders_enabled_${conf_version}\"")
+
+        resValue("string", "pref_session_reminders_enabled", "pref_session_reminders_enabled_${conf_version}")
+        buildConfigField("String", "PREF_NOTIFICATIONS_ENABLED", "\"pref_session_reminders_enabled_${conf_version}\"")
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+    }
+    /*configurations {
+        all*.exclude group: 'com.android.support', module: 'support-annotations'
+    }*/
+    dataBinding {
+        enabled = true
+    }
+    buildToolsVersion '27.0.3'
+}
+repositories {
+    google()
+    jcenter()
+}
+
+ext {
+    supportLibVersion = '28.0.0-alpha1'
+    playServicesVersion = '15.0.0'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    // Google Play Services
+
+    //implementation "com.google.android.gms:play-services:${google_play_services_client_library_version}"
+    implementation "com.google.android.gms:play-services-maps:${playServicesVersion}"
+
+    //implementation "com.google.android.gms:play-services-analytics:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-plus:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-gcm:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-location:${playServicesVersion}"
+
+    //    implementation "com.google.android.gms:play-services-appindexing:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-ads:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-auth:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-vision:${playServicesVersion}"
+
+    // Support Libraries
+    implementation "com.android.support:support-annotations:${supportLibVersion}"
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+    implementation "com.android.support:cardview-v7:${supportLibVersion}"
+    implementation "com.android.support:design:${supportLibVersion}"
+    implementation "com.android.support:recyclerview-v7:${supportLibVersion}"
+    implementation "com.android.support:palette-v7:${supportLibVersion}"
+    implementation "com.android.support:customtabs:${supportLibVersion}"
+    implementation "com.android.support:support-v4:${supportLibVersion}"
+    implementation "com.android.support:percent:${supportLibVersion}"
+    implementation "com.android.support:preference-v14:${supportLibVersion}"
+    implementation "com.android.support:transition:${supportLibVersion}"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    // RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    // ViewModel and LiveData
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    // alternatively, just ViewModel
+    implementation "android.arch.lifecycle:viewmodel:1.1.1"
+    // alternatively, just LiveData
+    implementation "android.arch.lifecycle:livedata:1.1.1"
+
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
+    // Room (use 1.1.0-beta3 for latest beta)
+    implementation "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+
+    // Paging
+    implementation "android.arch.paging:runtime:1.0.0-rc1"
+
+    // ButterKnife
+    implementation "com.jakewharton:butterknife:8.8.1"
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.8.1"
+
+    // Retrofit and OkHttp
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0'
+    implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0"
+    implementation "com.squareup.okhttp3:okhttp:3.0.1"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:3.0.1"
+
+    // Others libs
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.github.bumptech.glide:okhttp-integration:1.3.0'
+    implementation 'org.jsoup:jsoup:1.8.3'
+    implementation 'com.google.guava:guava:19.0'
+    implementation 'com.doodle.android:android-material-chips:1.1.0'
+
+    // Android SDK
+    implementation 'com.facebook.android:facebook-android-sdk:4.+'
+
+    // Audience Network SDK. Only versions 4.6.0 and above are available
+    implementation 'com.facebook.android:audience-network-sdk:4.+'
+
+    // Account Kit
+
+    //implementation 'com.facebook.android:account-kit-sdk:4.+'
+
+    // Firebase
+    implementation "com.google.firebase:firebase-messaging:15.0.2"
+
+    // Google Calendar
+
+    /*implementation('com.google.apis:google-api-services-calendar:v3-rev225-1.22.0') {
+                    exclude group: 'org.apache.httpcomponents'
+                }*/
+    implementation 'com.google.android:flexbox:0.3.0'
+    implementation 'com.android.support:multidex:1.0.1'
+    testImplementation 'junit:junit:4.12'
+    implementation project(path: ':bypass')
+}
+
+apply plugin: 'com.google.gms.google-services'

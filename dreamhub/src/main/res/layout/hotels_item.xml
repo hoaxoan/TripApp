@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View.OnClickListener" />
+
+        <variable
+            name="obj"
+            type="com.winter.dreamhub.api.service.model.Entity" />
+
+    </data>
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_marginBottom="@dimen/landmark_item_card_margin_top_bottom"
+        android:layout_marginLeft="@dimen/landmark_item_card_margin_left_right"
+        android:layout_marginRight="@dimen/landmark_item_card_margin_left_right"
+        android:layout_marginTop="@dimen/landmark_item_card_margin_top_bottom"
+        android:foreground="?android:selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/landmark_item_common_padding">
+
+            <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/entity_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/photo_attribution_text"
+                    style="@style/TripAttribution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center|top"
+                    android:layout_marginLeft="@dimen/landmark_item_common_padding"
+                    android:layout_marginRight="@dimen/landmark_item_common_padding"
+                    android:layout_marginTop="@dimen/landmark_item_top_margin"
+                    android:gravity="top"
+                    android:minHeight="@dimen/min_tap_target"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/landmark_item_common_padding"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/entity_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:src="@drawable/quantum_ic_feedback_white_24" />
+
+                    <ImageView
+                        android:id="@+id/landmark_options"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="@dimen/landmark_item_overflow_button_padding_left"
+                        android:src="@drawable/quantum_ic_more_vert_white_18" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bottom_gradient_shape"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/entity_name"
+                        style="@style/Winter.TextAppearance.EntityTitle"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingBottom="@dimen/landmark_item_common_padding"
+                        android:paddingLeft="@dimen/landmark_item_common_padding"
+                        android:paddingTop="@dimen/landmark_item_common_padding"/>
+                </LinearLayout>
+            </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+            <LinearLayout
+                android:id="@+id/entity_info_holder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/landmark_item_common_padding" />
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+</layout>

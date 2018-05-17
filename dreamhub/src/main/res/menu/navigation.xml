@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_trips"
+        android:icon="@drawable/ic_all_inclusive_white_24dp"
+        android:title="@string/tab_trip"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_searchs"
+        android:icon="@drawable/quantum_ic_search_white_24"
+        android:title="@string/tab_search"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title="@string/tab_profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

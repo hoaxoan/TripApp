@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tnt_subcategory_description"
+    style="@style/TNTContent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/tnt_item_padding_24"
+    android:paddingLeft="@dimen/tnt_item_padding_16"
+    android:paddingRight="@dimen/tnt_item_padding_16"
+    android:paddingTop="@dimen/tnt_item_padding_24" />

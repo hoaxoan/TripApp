@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Onboarding_WelcomeScreen"
+    android:background="@drawable/oobe_m_003">
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Title"
+        android:text="Inbox" />
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_Reminder_Title"
+        android:layout_marginTop="270.0px"
+        android:text="Buy tickets"
+        android:textColor="@color/dark_text" />
+</FrameLayout>

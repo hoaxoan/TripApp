@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/generic_tl_badges_height"
+    android:background="@drawable/generic_status_background"
+    android:ellipsize="end"
+    android:fontFamily="sans-serif-condensed"
+    android:gravity="center"
+    android:singleLine="true"
+    android:text="12"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/generic_tl_badges_text_size"
+    android:textStyle="bold"
+    android:visibility="gone" />

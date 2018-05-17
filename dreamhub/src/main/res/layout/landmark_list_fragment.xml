@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/landmark_list_top_bottom_padding"
+            android:paddingTop="@dimen/landmark_list_top_bottom_padding"
+            android:scrollbars="vertical"
+            android:tag="ve=14714" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

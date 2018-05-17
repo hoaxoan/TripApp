@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/tnt_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/tnt_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/almost_zero"
+            android:orientation="vertical">
+
+            <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+                android:id="@+id/tnt_subcategory_illustration_holder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/illustration_background">
+
+                <com.winter.dreamhub.widget.FadingImageView
+                    android:id="@+id/tnt_subcategory_illustration"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitCenter" />
+
+                <com.winter.dreamhub.widget.TabbedLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/tabs_layout_height"
+                    android:layout_gravity="bottom"
+                    android:tag="ve=14719" />
+
+            </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+            <include layout="@layout/bottom_shadow" />
+        </LinearLayout>
+
+        <include layout="@layout/toolbar_layout" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading_layout" />
+</FrameLayout>

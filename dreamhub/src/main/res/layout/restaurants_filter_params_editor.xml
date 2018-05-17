@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/quantum_white_100"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/close_itinerary_filter_ui"
+            android:layout_width="@dimen/min_tap_target"
+            android:layout_height="@dimen/min_tap_target"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/close_button_label"
+            android:scaleType="center"
+            android:src="@drawable/quantum_ic_tune_grey600_24" />
+
+        <TextView
+            style="@style/Winter.TextAppearance.Body1"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/material_triple_padding"
+            android:layout_marginTop="@dimen/material_triple_padding"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/chip_height"
+            android:text="@string/restaurants_filter_ui_choose_time_and_day"
+            android:textColor="@color/quantum_grey500" />
+
+        <TextView
+            android:id="@+id/itinerary_done_button"
+            style="@style/Winter.TextAppearance.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/min_tap_target"
+            android:minWidth="@dimen/min_tap_target"
+            android:text="@string/restaurants_filter_ui_done"
+            android:textAllCaps="true"
+            android:textColor="@color/quantum_grey600" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_spacer" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/material_triple_padding"
+        android:paddingLeft="@dimen/material_quintuple_padding"
+        android:paddingRight="@dimen/material_quintuple_padding"
+        android:paddingTop="@dimen/material_triple_padding">
+
+        <TextView
+            android:id="@+id/itinerary_morning_textview"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/chip_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/chip_round_corners_left_side"
+            android:gravity="center"
+            android:text="@string/restaurants_duration_morning" />
+
+        <TextView
+            android:id="@+id/itinerary_afternoon_textview"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/chip_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/chip_rectangle"
+            android:gravity="center"
+            android:text="@string/restaurants_duration_afternoon" />
+
+        <TextView
+            android:id="@+id/itinerary_fullday_textview"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/chip_height"
+            android:layout_weight="1.0"
+            android:background="@drawable/chip_round_corners_right_side"
+            android:gravity="center"
+            android:text="@string/restaurants_duration_full_day" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_spacer" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/material_quintuple_padding">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:paddingBottom="@dimen/material_triple_padding"
+            android:paddingTop="@dimen/material_triple_padding"
+            android:text="@string/restaurants_day_of_the_week" />
+
+        <LinearLayout
+            android:id="@+id/day_of_the_week_drop_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:minHeight="@dimen/min_tap_target"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/material_quintuple_padding">
+
+            <TextView
+                android:id="@+id/day_of_the_week_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="@dimen/min_tap_target"
+                android:layout_height="@dimen/min_tap_target"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/restaurants_day_of_the_week_menu"
+                android:scaleType="center"
+                android:src="@drawable/quantum_ic_arrow_drop_down_grey600_24" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

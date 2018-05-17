@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/itinerary_card_top_bottom_margin"
+    android:layout_marginLeft="@dimen/itinerary_card_left_right_margin"
+    android:layout_marginRight="@dimen/itinerary_card_left_right_margin"
+    android:layout_marginTop="@dimen/itinerary_card_top_bottom_margin">
+
+    <LinearLayout
+        android:id="@+id/itinerary_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/itinerary_heading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground">
+
+            <TextView
+                android:id="@+id/itinerary_title"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/itinerary_options"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/material_single_padding"
+                android:paddingLeft="@dimen/material_quadruple_padding"
+                android:paddingTop="@dimen/material_quadruple_padding" />
+
+            <ImageView
+                android:id="@+id/itinerary_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/abc_action_menu_overflow_description"
+                android:padding="@dimen/material_triple_padding"
+                android:paddingBottom="@dimen/material_triple_padding"
+                android:scaleType="center"
+                android:src="@drawable/quantum_ic_more_vert_grey600_24" />
+
+            <TextView
+                android:id="@+id/itinerary_text"
+                style="@style/ItineraryCardText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/itinerary_title"
+                android:paddingBottom="@dimen/material_triple_padding"
+                android:paddingLeft="@dimen/material_quadruple_padding" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/photo_carousel_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/sights_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:scrollbarSize="0dp"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        </LinearLayout>
+
+        <com.winter.dreamhub.widget.ItinerarySummaryView
+            android:id="@+id/summary_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/material_single_padding"
+            android:paddingTop="@dimen/material_single_padding" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

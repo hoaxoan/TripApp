@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?actionBarSize">
+
+        <!-- Main layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/footer"
+                    style="@style/button_bar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?android:actionBarSize"
+                    android:layout_alignParentBottom="true">
+
+                    <Button
+                        android:id="@+id/left_button"
+                        style="@style/button_bar_button"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:text="@string/cancel_button" />
+
+                    <View style="@style/button_bar_divider" />
+
+                    <Button
+                        android:id="@+id/right_button"
+                        style="@style/button_bar_button"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:text="@string/apply_button"
+                        android:textSize="@dimen/text_size_menu_large" />
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/scroll_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/footer"
+                    android:background="@color/app_background_new"
+                    android:fillViewport="true"
+                    android:paddingLeft="@dimen/login_padding_left"
+                    android:paddingRight="@dimen/login_padding_right"
+                    android:scrollbarStyle="outsideOverlay">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/material_triple_padding"
+                        android:paddingLeft="@dimen/material_quintuple_padding"
+                        android:paddingRight="@dimen/material_quintuple_padding"
+                        android:paddingTop="@dimen/material_triple_padding">
+
+                        <TextView
+                            android:id="@+id/itinerary_morning_textview"
+                            android:layout_width="0.0dip"
+                            android:layout_height="@dimen/chip_height"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/chip_round_corners_left_side"
+                            android:gravity="center"
+                            android:text="@string/restaurants_duration_morning" />
+
+                        <TextView
+                            android:id="@+id/itinerary_afternoon_textview"
+                            android:layout_width="0.0dip"
+                            android:layout_height="@dimen/chip_height"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/chip_rectangle"
+                            android:gravity="center"
+                            android:text="@string/restaurants_duration_afternoon" />
+
+                        <TextView
+                            android:id="@+id/itinerary_fullday_textview"
+                            android:layout_width="0.0dip"
+                            android:layout_height="@dimen/chip_height"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/chip_round_corners_right_side"
+                            android:gravity="center"
+                            android:text="@string/restaurants_duration_full_day" />
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <include layout="@layout/toolbar_actionbar" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/default_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/google_blue" />
+            <size android:height="@dimen/fab_mini_circle_diameter" android:width="@dimen/fab_mini_circle_diameter" />
+        </shape>
+    </item>
+</ripple>

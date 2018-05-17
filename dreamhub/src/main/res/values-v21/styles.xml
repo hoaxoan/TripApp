@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DreamHub" parent="Theme.DreamHub.Base">
+        <item name="popupItemBackground">@drawable/popup_item_background</item>
+        <item name="photoItemForeground">@drawable/photo_item_foreground</item>
+        <item name="photoItemForegroundBorderless">@drawable/photo_item_foreground_borderless</item>
+        <item name="android:alertDialogTheme">@style/Theme.DreamHub.AlertDialog</item>
+        <item name="imageItemBackground">?android:selectableItemBackgroundBorderless</item>
+
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="android:navigationBarColor">@color/primary_super_dark</item>
+        <item name="android:statusBarColor">@color/background_super_dark</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.DreamHub.Translucent" parent="Theme.DreamHub">
+        <item name="android:windowBackground">@color/scrim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.DreamHub.AlertDialog" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/timely_background_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@color/accent_blue</item>
+    </style>
+
+
+    <!-- FAB -->
+    <style name="fab">
+        <item name="android:src">@drawable/fab_arrow</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">bottom|left</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="elevation">8dp</item>
+        <item name="fabSize">mini</item>
+        <item name="pressedTranslationZ">6dp</item>
+    </style>
+
+
+
+    <style name="DetailActivity"  parent="@style/Theme.DreamHub">
+        <item name="android:windowSharedElementEnterTransition">@transition/dribbble_shot_shared_enter</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/dribbble_shot_shared_return</item>
+        <item name="android:windowEnterTransition">@transition/dribbble_shot_enter</item>
+        <item name="android:windowReturnTransition">@transition/dribbble_shot_return</item>
+    </style>
+</resources>

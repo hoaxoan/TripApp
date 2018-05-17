@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+
+    <color name="accent_blue">#ff4285f4</color>
+    <color name="background_color">#fffafafa</color>
+
+    <color name="description_translucent_white">#a8ffffff</color>
+    <color name="actionbar_title_text_color">#ff333333</color>
+    <color name="actionbar_today_text_color">#ff777777</color>
+
+    <color name="groove_create_promo_background">#ffffffff</color>
+    <color name="groove_cursor_black">#ff000000</color>
+    <color name="groove_store_title_color">#ff212121</color>
+    <color name="groove_wizard_button_black">#ff000000</color>
+    <color name="groove_wizard_button_white">#ffffffff</color>
+
+    <color name="store_header_background_color">#00000000</color>
+    <color name="default_dark_grey_text_color">#ff757575</color>
+
+    <color name="transparent_background_color">#00ffffff</color>
+
+    <color name="category_build_skill_illustration">#ffffdeb5</color>
+    <color name="category_build_skill_illustration_fab">#fffa6949</color>
+    <color name="category_exercise_illustration">#ff7989c7</color>
+    <color name="category_exercise_illustration_fab">#fff7714f</color>
+    <color name="category_friends_and_family_illustration">#ffb7e1cb</color>
+    <color name="category_friends_and_family_illustration_fab">#fff8c379</color>
+    <color name="category_me_time_illustration">#ffefd4c9</color>
+    <color name="category_me_time_illustration_fab">#fff44b83</color>
+    <color name="category_organize_life_illustration">#ffffdd86</color>
+    <color name="category_organize_life_illustration_fab">#fff46952</color>
+
+    <color name="divider_black">#33000000</color>
+
+    <color name="lightish_blue">#536dfe</color>
+    <color name="aqua_marine">#1ce8b5</color>
+    <color name="neon_blue">#00e4ff</color>
+    <color name="sunflower_yellow">#ffd500</color>
+    <color name="background">#ffffffff</color>
+    <color name="content_background">@null</color>
+
+    <!--Evet colors-->
+    <color name="event_background">#ffc3d9ff</color>
+    <color name="event_center">#ff6bd697</color>
+    <color name="event_info_action_divider">#ffd6d6d6</color>
+    <color name="event_info_checked_response">#ff4285f4</color>
+    <color name="event_info_headline_color">#ffffffff</color>
+    <color name="event_info_response">#ff777777</color>
+    <color name="info_segment_text_dark">#ff212121</color>
+    <color name="info_segment_text_dark_grey">#ff757575</color>
+
+    <color name="edit_dropdown_background">#fff7f7f7</color>
+    <color name="edit_edit_text_error_color">#ffdb4437</color>
+    <color name="edit_event_background_color">#ffe9e9e9</color>
+    <color name="edit_event_button_background_stroke">#33000000</color>
+    <color name="edit_event_edit_text">#99000000</color>
+    <color name="edit_event_edit_text_highlight">#6633b5e5</color>
+    <color name="edit_event_edit_text_hint">#99808080</color>
+    <color name="edit_event_edit_text_link">#ff0000ee</color>
+    <color name="edit_event_explanation">#99000000</color>
+    <color name="edit_event_headline_active_color">#ff0098cb</color>
+    <color name="edit_event_headline_color">#ffffffff</color>
+    <color name="edit_event_headline_disabled_color">#d8ffffff</color>
+    <color name="edit_event_headline_focused_color">#800098cb</color>
+    <color name="edit_event_headline_hint_color">#80ffffff</color>
+    <color name="edit_event_separator">#ffdddddd</color>
+    <color name="edit_event_text">#ff212121</color>
+    <color name="edit_event_text_highlight">#6633b5e5</color>
+    <color name="edit_event_text_hint">#ff808080</color>
+    <color name="edit_event_text_link">#ff0000ee</color>
+    <color name="edit_event_when_label_color">#cc000000</color>
+    <color name="edit_segment_divider">#ffd6d6d6</color>
+    <color name="edit_text_dark">#ff212121</color>
+    <color name="edit_text_light">#ff757575</color>
+
+    <color name="color_edit_segment_dropdown_label">#ff333333</color>
+    <color name="color_edit_segment_label">#ff333333</color>
+
+    <color name="quickcreate_title">#ffffffff</color>
+    <color name="quickcreate_title_selected">#ffcccccc</color>
+
+    <color name="segment_item_focused_background">#ffe5e5e5</color>
+    <color name="segment_item_pressed_background">#ffe5e5e5</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#7f000000</color>
+
+    <!--bottom navigation colors-->
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationActiveSmall">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveSmall">#50FFFFFF</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+
+    <color name="color_tab_1">#455C65</color>
+    <color name="color_tab_2">#00886A</color>
+    <color name="color_tab_3">#8B6B62</color>
+    <color name="color_tab_4">#6C4A42</color>
+    <color name="color_tab_5">#F63D2B</color>
+
+    <!--navigation drawer colors-->
+    <color name="navigation_drawer_background">#ffffffff</color>
+    <color name="navigation_drawer_text_color">#de000000</color>
+    <color name="navigation_drawer_text_color_selected">#ff006574</color>
+    <color name="navigation_drawer_icon_tint">#444</color>
+    <color name="navigation_drawer_icon_tint_selected">#ff006574</color>
+    <color name="navigation_drawer_selected_item_background">#1a000000</color>
+    <color name="light_grey">#fff0f0f0</color>
+    <color name="lighter_gray">#ddd</color>
+
+
+    <!-- Colors for Calendar view -->
+    <color name="calendar_future_days_bg">#FFFFFF</color>
+    <color name="calendar_past_days_bg">#F5F5F5</color>
+    <color name="calendar_text_current_day">#000000</color>
+    <color name="calendar_text_selected">#FFFFFF</color>
+    <color name="calendar_text_default">#9C9CA0</color>
+    <color name="calendar_text_first_day_of_month">#FD9635</color>
+    <color name="calendar_month_transparent_background">#CCFFFFFF</color>
+    <color name="calendar_divider_color">#F3F3F3</color>
+
+    <color name="fab_background_tint">#FFEEEEEE</color>
+    <color name="fab_drawable_tint">@android:color/white</color>
+    <color name="mini_fab_drawable_tint">@android:color/black</color>
+    <color name="title_text_color">@android:color/black</color>
+    <color name="mini_fab_title_background_tint">@android:color/white</color>
+
+    <color name="timeline_future_day_header">#ff333333</color>
+    <color name="timely_background_color">#ffffffff</color>
+    <color name="timely_background_shaded_color">#ffeeeeee</color>
+    <color name="google_blue">#ff4285f4</color>
+    <color name="google_red">#E64A19</color>
+    <color name="google_blue_highlight">#ff3367d6</color>
+    <color name="default_ripple">#20444444</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="line_below_action_bar">#ffd6d6d6</color>
+    <color name="line_dark">#ff808080</color>
+
+    <!-- Colors for Agenda view -->
+    <color name="agenda_list_header_divider">#E4E4E4</color>
+
+    <!-- General -->
+    <color name="blue_selected">#1D87E7</color>
+    <color name="theme_primary_dark">#1976D2</color>
+    <color name="theme_primary">#2196F3</color>
+    <color name="theme_light_primary">#BBDEFB</color>
+    <color name="theme_accent">#FFEB3B</color>
+    <color name="theme_text_icons">#FFFFFF</color>
+    <color name="orange_dark">#E64A19</color>
+    <color name="blue_dark">#00537F</color>
+    <color name="yellow">#F5A623</color>
+    <color name="divider_grey">#ffdedede</color>
+
+    <color name="quantum_grey">@color/quantum_grey500</color>
+    <color name="quantum_grey100">#fff5f5f5</color>
+    <color name="quantum_grey200">#ffeeeeee</color>
+    <color name="quantum_grey300">#ffe0e0e0</color>
+    <color name="quantum_grey400">#ffbdbdbd</color>
+    <color name="quantum_grey50">#fffafafa</color>
+    <color name="quantum_grey500">#ff9e9e9e</color>
+    <color name="quantum_grey600">#ff757575</color>
+    <color name="quantum_grey700">#ff616161</color>
+    <color name="quantum_grey800">#ff424242</color>
+    <color name="quantum_grey900">#ff212121</color>
+    <color name="quantum_greyblack1000">#ff000000</color>
+    <color name="quantum_greywhite1000">#ffffffff</color>
+
+    <!-- common colours -->
+    <color name="text_primary_dark">#de000000</color> <!-- 87% -->
+    <color name="text_secondary_dark">#8a000000</color> <!-- 54% -->
+    <color name="text_tertiary_dark">#61000000</color> <!-- 38% -->
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="text_secondary_light">#b3ffffff</color> <!-- 70% -->
+    <color name="text_disabled_light">#4dffffff</color> <!-- 30% -->
+    <color name="ripple_light">#99ffffff</color>
+    <color name="ripple_dark">@color/mid_grey</color>
+    <color name="background_light">#fafafa</color> <!-- grey 50 -->
+    <color name="background_lightish">#e0e0e0</color> <!-- grey 300 -->
+    <color name="background_dark">#ff333333</color>
+    <color name="immersive_bars">#99000000</color>
+    <color name="light_immersive_bars">@color/immersive_bars</color>
+    <color name="status_bar_back">#ff676767
+    </color> <!-- this is blended with immersive_bars to produce the desired status bar color i.e. background_super_dark -->
+    <color name="background_super_dark">#ff292929</color>
+    <color name="primary_super_dark">#11261c</color>
+    <color name="scrim">#99323232</color>
+    <color name="grey_200">#ffeeeeee</color>
+    <color name="grey_300">#ffe0e0e0</color>
+    <color name="mid_grey">#40808080</color>
+    <color name="content_placeholder">#ffe0e0e0</color>
+    <color name="dark_icon">#99000000</color> <!-- 60% black-->
+    <color name="dark_icon_half_alpha">#4d000000</color> <!-- 30% black-->
+    <color name="dark_icon_on_primary">#ff2a6046</color> <!-- 60% black on @color/primary -->
+    <color name="inline_action_icon">#ff757575</color> <!-- grey 600 -->
+    <color name="light_icon">#ffffffff</color>
+    <color name="divider">#1f000000</color> <!-- 12% black -->
+    <color name="page_indicator_dark">#80333333</color>
+    <color name="page_indicator_dark_selected">#ff333333</color>
+    <color name="selected_comment_background">#ffffffff</color>
+    <color name="error">#ffdd2c00</color>
+
+    <color name="suggestion_description_color">#ff757575</color>
+    <color name="suggestion_edit_text_chip_background">#ffeeeeee</color>
+    <color name="suggestion_edit_text_chip_background_selected">#ff4285f4</color>
+    <color name="suggestion_edit_text_chip_text">#ff212121</color>
+    <color name="suggestion_edit_text_chip_text_selected">#ffffffff</color>
+    <color name="suggestion_header_background_color">#43bbbbbb</color>
+    <color name="suggestion_title_color">#ff212121</color>
+
+    <!-- dribbble -->
+    <color name="dribbble">#fff06292</color> <!-- pink 300 -->
+    <color name="dribbble_dark">#ec407a</color> <!-- pink 400 -->
+    <color name="dribbble_super_dark">#ff33292d</color>
+    <color name="dribbble_link_highlight">#b3f06292</color>
+    <color name="fab_heart_empty">@color/text_primary_light</color>
+    <color name="fab_heart_progress_bar">#deffffff</color> <!-- 87% white-->
+    <color name="fab_heart_full">#ffffffff</color>
+    <color name="gif_badge_light_image">#40000000</color>
+    <color name="gif_badge_dark_image">#b3ffffff</color>
+    <array name="loading_placeholders_dark">
+        <item>#ff191919</item>
+        <item>#ff212121</item>
+        <item>#ff232323</item>
+    </array>
+    <array name="loading_placeholders_light">
+        <item>#fff5f5f5</item>
+        <item>#ffeeeeee</item>
+        <item>#ffe0e0e0</item>
+    </array>
+
+    <!-- text (most text uses material theme colours) -->
+    <color name="hint_disabled_dark">#43000000</color> <!-- 26% black -->
+    <color name="text_on_accent">#8f000000</color>
+
+    <!-- drawing -->
+    <color name="comment_bubble">#777</color>
+    <color name="comment_line_stroke_color">#fbfbfb</color>
+    <integer name="comment_line_stroke_width">2</integer>
+
+    <color name="card_shadow_1">#05000000</color>
+    <color name="card_shadow_2">#10000000</color>
+    <color name="card_shadow_3">#20000000</color>
+
+    <!-- Introduction -->
+    <color name="white_text">@android:color/white</color>
+    <color name="light_text">#ff757575</color>
+    <color name="dark_text">#ff212121</color>
+    <color name="cluster_name_custom">@color/dark_text</color>
+    <color name="cluster_name_finance">#ff558b2f</color>
+    <color name="cluster_name_forums">#ff3949ab</color>
+    <color name="cluster_name_notifications">#fff4511e</color>
+    <color name="cluster_name_promos">#ff00acc1</color>
+    <color name="cluster_name_saved">#ff3367d6</color>
+    <color name="cluster_name_shopping">#ff6d4c41</color>
+    <color name="cluster_name_social">#ffd23f31</color>
+    <color name="cluster_name_travel">#ff8e24aa</color>
+    <color name="cluster_name_unimportant">@color/dark_text</color>
+
+    <color name="onboarding_bundle_configurator_cluster_bundle_grouped_text">#ff689f38</color>
+    <color name="onboarding_bundle_configurator_cluster_bundle_individual_text">#ff757575</color>
+    <color name="onboarding_bundle_configurator_status_bar">#ff9b9b9b</color>
+    <color name="onboarding_message_done_background">#ff33ac71</color>
+    <color name="onboarding_screen_bundles_explanation_background">#ff689f38</color>
+    <color name="onboarding_screen_reminders_explanation_background">#ff4285f4</color>
+    <color name="onboarding_screen_smartmail_explanation_background">#9C27B0</color>
+    <color name="onboarding_screen_snooze_explanation_background">#ffef6c00</color>
+
+    <color name="bundle_configurator_background">@android:color/white</color>
+    <color name="bundle_configurator_drop_shadow_end">#16000000</color>
+    <color name="bundle_configurator_drop_shadow_start">#00000000</color>
+
+    <color name="stroke_grey">#ffe0e0e0</color>
+    <color name="faint_text">#ff757575</color>
+    <color name="faint_text_transparent">#bfffffff</color>
+    <color name="megalist_item_background">@android:color/white</color>
+    <color name="megalist_item_background_selected">#ffebf2ff</color>
+    <color name="default_os_pressed_background_opaque">#ffc1e9f7</color>
+    <color name="action_bar_background_green">#ff0f9d58</color>
+
+    <color name="generic_item_font_black">#ff212121</color>
+    <color name="generic_item_font_light">@color/light_text</color>
+    <color name="generic_item_card_background">@android:color/white</color>
+    <color name="generic_tl_tile_background">#11000000</color>
+    <color name="generic_pop_image_overlay">#40000000</color>
+
+    <color name="people_not_selected">#ff2789e4</color>
+    <color name="people_selected">#ff2174c2</color>
+
+    <!--DateTimePicker-->
+    <color name="mdtp_white">#ffffff</color>
+    <color name="mdtp_background_color">@color/mdtp_white</color>
+    <color name="mdtp_circle_background">@color/mdtp_background_color</color>
+    <color name="mdtp_circle_color">#f5f5f5</color>
+    <color name="mdtp_line_background">#cccccc</color>
+    <color name="mdtp_ampm_text_color">@color/mdtp_numbers_text_color</color>
+    <color name="mdtp_done_text_color_normal">#ff212121</color>
+    <color name="mdtp_done_text_color_disabled">#cccccc</color>
+    <color name="mdtp_numbers_text_color">#ff212121</color>
+
+    <color name="mdtp_transparent_black">#7f000000</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_focused">#76ffffff</color>
+    <color name="mdtp_neutral_pressed">#33999999</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+    <color name="mdtp_date_picker_text_normal">#ff212121</color>
+    <color name="mdtp_date_picker_text_highlighted">@color/mdtp_date_picker_text_normal</color>
+    <color name="mdtp_date_picker_text_disabled">#ccc</color>
+    <color name="mdtp_date_picker_month_day">#767676</color>
+
+    <!-- DatePicker Dark Theme -->
+    <color name="mdtp_date_picker_view_animator_dark_theme">@color/mdtp_light_gray</color>
+    <color name="mdtp_date_picker_text_normal_dark_theme">@color/mdtp_white</color>
+    <color name="mdtp_date_picker_month_day_dark_theme">#b4b4b4</color>
+    <color name="mdtp_date_picker_text_disabled_dark_theme">#767676</color>
+    <color name="mdtp_date_picker_text_highlighted_dark_theme">
+        @color/mdtp_date_picker_text_normal_dark_theme
+    </color>
+
+    <color name="mdtp_calendar_header">@color/mdtp_accent_color_dark</color>
+    <color name="mdtp_date_picker_view_animator">@android:color/white</color>
+    <color name="mdtp_calendar_selected_date_text">#ffd1d2d4</color>
+
+    <color name="mdtp_button_color">@color/mdtp_accent_color</color>
+    <color name="mdtp_button_selected">#33969696</color>
+
+    <!-- TimePicker Dark Theme -->
+    <color name="mdtp_circle_background_dark_theme">#525252</color>
+
+    <!-- Colors for red theme -->
+    <color name="mdtp_red">@color/mdtp_accent_color</color>
+    <color name="mdtp_red_focused">@color/mdtp_accent_color_dark</color>
+    <color name="mdtp_light_gray">#424242</color>
+    <color name="mdtp_dark_gray">#323232</color>
+    <color name="mdtp_line_dark">#808080</color>
+    <color name="mdtp_done_text_color_dark_normal">#ffffff</color>
+    <color name="mdtp_done_text_color_dark_disabled">#888888</color>
+    <color name="mdtp_done_disabled_dark">#bfbfbf</color>
+
+    <!-- Color Trips-->
+    <color name="quantum_googred">@color/quantum_googred500</color>
+    <color name="quantum_pink">@color/quantum_pink500</color>
+    <color name="quantum_purple">@color/quantum_purple500</color>
+    <color name="quantum_deeppurple">@color/quantum_deeppurple500</color>
+    <color name="quantum_indigo">@color/quantum_indigo500</color>
+    <color name="quantum_googblue">@color/quantum_googblue500</color>
+    <color name="quantum_lightblue">@color/quantum_lightblue500</color>
+    <color name="quantum_teal">@color/quantum_teal500</color>
+    <color name="quantum_cyan">@color/quantum_cyan500</color>
+    <color name="quantum_googgreen">@color/quantum_googgreen500</color>
+    <color name="quantum_lightgreen">@color/quantum_lightgreen500</color>
+    <color name="quantum_lime">@color/quantum_lime500</color>
+    <color name="quantum_yellow">@color/quantum_yellow500</color>
+    <color name="quantum_googyellow">@color/quantum_googyellow500</color>
+    <color name="quantum_orange">@color/quantum_orange500</color>
+    <color name="quantum_deeporange">@color/quantum_deeporange500</color>
+    <color name="quantum_brown">@color/quantum_brown500</color>
+    <!--<color name="quantum_grey">@color/quantum_grey500</color>-->
+    <color name="quantum_black_100">#ff000000</color>
+    <color name="quantum_black_text">#dd000000</color>
+    <color name="quantum_black_secondary_text">#89000000</color>
+    <color name="quantum_black_hint_text">#61000000</color>
+    <color name="quantum_black_divider">#1f000000</color>
+    <color name="quantum_white_100">#ffffffff</color>
+    <color name="quantum_white_text">#ffffffff</color>
+    <color name="quantum_white_secondary_text">#b3ffffff</color>
+    <color name="quantum_white_hint_text">#80ffffff</color>
+    <color name="quantum_white_divider">#1fffffff</color>
+    <color name="quantum_error_light">#ffd50000</color>
+    <color name="quantum_error_dark">#ffff6e6e</color>
+    <!--<color name="quantum_greyblack1000">#ff000000</color>
+    <color name="quantum_greywhite1000">#ffffffff</color>-->
+    <color name="quantum_bluegrey950">#ff21272b</color>
+    <color name="quantum_googred50">#fffbe9e7</color>
+    <color name="quantum_googred100">#fff4c7c3</color>
+    <color name="quantum_googred200">#ffeda29b</color>
+    <color name="quantum_googred300">#ffe67c73</color>
+    <color name="quantum_googred400">#ffe06055</color>
+    <color name="quantum_googred500">#ffdb4437</color>
+    <color name="quantum_googred600">#ffd23f31</color>
+    <color name="quantum_googred700">#ffc53929</color>
+    <color name="quantum_googred800">#ffb93221</color>
+    <color name="quantum_googred900">#ffa52714</color>
+    <color name="quantum_googredA100">#ffff8a80</color>
+    <color name="quantum_googredA200">#ffff5252</color>
+    <color name="quantum_googredA400">#ffff1744</color>
+    <color name="quantum_googredA700">#ffd50000</color>
+    <color name="quantum_googblue50">#ffe8f0fe</color>
+    <color name="quantum_googblue100">#ffc6dafc</color>
+    <color name="quantum_googblue200">#ffa1c2fa</color>
+    <color name="quantum_googblue300">#ff7baaf7</color>
+    <color name="quantum_googblue400">#ff5e97f6</color>
+    <color name="quantum_googblue500">#ff4285f4</color>
+    <color name="quantum_googblue600">#ff3b78e7</color>
+    <color name="quantum_googblue700">#ff3367d6</color>
+    <color name="quantum_googblue800">#ff2a56c6</color>
+    <color name="quantum_googblue900">#ff1c3aa9</color>
+    <color name="quantum_googblueA100">#ff82b1ff</color>
+    <color name="quantum_googblueA200">#ff448aff</color>
+    <color name="quantum_googblueA400">#ff2979ff</color>
+    <color name="quantum_googblueA700">#ff2962ff</color>
+    <color name="quantum_googgreen50">#ffe2f3eb</color>
+    <color name="quantum_googgreen100">#ffb7e1cd</color>
+    <color name="quantum_googgreen200">#ff87ceac</color>
+    <color name="quantum_googgreen300">#ff57bb8a</color>
+    <color name="quantum_googgreen400">#ff33ac71</color>
+    <color name="quantum_googgreen500">#ff0f9d58</color>
+    <color name="quantum_googgreen600">#ff0d904f</color>
+    <color name="quantum_googgreen700">#ff0b8043</color>
+    <color name="quantum_googgreen800">#ff097138</color>
+    <color name="quantum_googgreen900">#ff055524</color>
+    <color name="quantum_googgreenA100">#ffb9f6ca</color>
+    <color name="quantum_googgreenA200">#ff69f0ae</color>
+    <color name="quantum_googgreenA400">#ff00e676</color>
+    <color name="quantum_googgreenA700">#ff00c853</color>
+    <color name="quantum_googyellow50">#fffef6e0</color>
+    <color name="quantum_googyellow100">#fffce8b2</color>
+    <color name="quantum_googyellow200">#fffada80</color>
+    <color name="quantum_googyellow300">#fff7cb4d</color>
+    <color name="quantum_googyellow400">#fff6bf26</color>
+    <color name="quantum_googyellow500">#fff4b400</color>
+    <color name="quantum_googyellow600">#fff2a600</color>
+    <color name="quantum_googyellow700">#fff09300</color>
+    <color name="quantum_googyellow800">#ffee8100</color>
+    <color name="quantum_googyellow900">#ffea6100</color>
+    <color name="quantum_googyellowA100">#ffffde80</color>
+    <color name="quantum_googyellowA200">#ffffcd40</color>
+    <color name="quantum_googyellowA400">#ffffbc00</color>
+    <color name="quantum_googyellowA700">#ffff9e00</color>
+    <color name="quantum_amber50">#fffff8e1</color>
+    <color name="quantum_amber100">#ffffecb3</color>
+    <color name="quantum_amber200">#ffffe082</color>
+    <color name="quantum_amber300">#ffffd54f</color>
+    <color name="quantum_amber400">#ffffca28</color>
+    <color name="quantum_amber500">#ffffc107</color>
+    <color name="quantum_amber600">#ffffb300</color>
+    <color name="quantum_amber700">#ffffa000</color>
+    <color name="quantum_amber800">#ffff8f00</color>
+    <color name="quantum_amber900">#ffff6f00</color>
+    <color name="quantum_amberA100">#ffffe57f</color>
+    <color name="quantum_amberA200">#ffffd740</color>
+    <color name="quantum_amberA400">#ffffc400</color>
+    <color name="quantum_amberA700">#ffffab00</color>
+    <color name="quantum_bluegrey50">#ffeceff1</color>
+    <color name="quantum_bluegrey100">#ffcfd8dc</color>
+    <color name="quantum_bluegrey200">#ffb0bec5</color>
+    <color name="quantum_bluegrey300">#ff90a4ae</color>
+    <color name="quantum_bluegrey400">#ff78909c</color>
+    <color name="quantum_bluegrey500">#ff607d8b</color>
+    <color name="quantum_bluegrey600">#ff546e7a</color>
+    <color name="quantum_bluegrey700">#ff455a64</color>
+    <color name="quantum_bluegrey800">#ff37474f</color>
+    <color name="quantum_bluegrey900">#ff263238</color>
+    <color name="quantum_brown50">#ffefebe9</color>
+    <color name="quantum_brown100">#ffd7ccc8</color>
+    <color name="quantum_brown200">#ffbcaaa4</color>
+    <color name="quantum_brown300">#ffa1887f</color>
+    <color name="quantum_brown400">#ff8d6e63</color>
+    <color name="quantum_brown500">#ff795548</color>
+    <color name="quantum_brown600">#ff6d4c41</color>
+    <color name="quantum_brown700">#ff5d4037</color>
+    <color name="quantum_brown800">#ff4e342e</color>
+    <color name="quantum_brown900">#ff3e2723</color>
+    <color name="quantum_cyan50">#ffe0f7fa</color>
+    <color name="quantum_cyan100">#ffb2ebf2</color>
+    <color name="quantum_cyan200">#ff80deea</color>
+    <color name="quantum_cyan300">#ff4dd0e1</color>
+    <color name="quantum_cyan400">#ff26c6da</color>
+    <color name="quantum_cyan500">#ff00bcd4</color>
+    <color name="quantum_cyan600">#ff00acc1</color>
+    <color name="quantum_cyan700">#ff0097a7</color>
+    <color name="quantum_cyan800">#ff00838f</color>
+    <color name="quantum_cyan900">#ff006064</color>
+    <color name="quantum_cyanA100">#ff84ffff</color>
+    <color name="quantum_cyanA200">#ff18ffff</color>
+    <color name="quantum_cyanA400">#ff00e5ff</color>
+    <color name="quantum_cyanA700">#ff00b8d4</color>
+    <color name="quantum_deeporange50">#fffbe9e7</color>
+    <color name="quantum_deeporange100">#ffffccbc</color>
+    <color name="quantum_deeporange200">#ffffab91</color>
+    <color name="quantum_deeporange300">#ffff8a65</color>
+    <color name="quantum_deeporange400">#ffff7043</color>
+    <color name="quantum_deeporange500">#ffff5722</color>
+    <color name="quantum_deeporange600">#fff4511e</color>
+    <color name="quantum_deeporange700">#ffe64a19</color>
+    <color name="quantum_deeporange800">#ffd84315</color>
+    <color name="quantum_deeporange900">#ffbf360c</color>
+    <color name="quantum_deeporangeA100">#ffff9e80</color>
+    <color name="quantum_deeporangeA200">#ffff6e40</color>
+    <color name="quantum_deeporangeA400">#ffff3d00</color>
+    <color name="quantum_deeporangeA700">#ffdd2c00</color>
+    <color name="quantum_deeppurple50">#ffede7f6</color>
+    <color name="quantum_deeppurple100">#ffd1c4e9</color>
+    <color name="quantum_deeppurple200">#ffb39ddb</color>
+    <color name="quantum_deeppurple300">#ff9575cd</color>
+    <color name="quantum_deeppurple400">#ff7e57c2</color>
+    <color name="quantum_deeppurple500">#ff673ab7</color>
+    <color name="quantum_deeppurple600">#ff5e35b1</color>
+    <color name="quantum_deeppurple700">#ff512da8</color>
+    <color name="quantum_deeppurple800">#ff4527a0</color>
+    <color name="quantum_deeppurple900">#ff311b92</color>
+    <color name="quantum_deeppurpleA100">#ffb388ff</color>
+    <color name="quantum_deeppurpleA200">#ff7c4dff</color>
+    <color name="quantum_deeppurpleA400">#ff651fff</color>
+    <color name="quantum_deeppurpleA700">#ff6200ea</color>
+    <!-- <color name="quantum_grey50">#fffafafa</color>
+     <color name="quantum_grey100">#fff5f5f5</color>
+     <color name="quantum_grey200">#ffeeeeee</color>
+     <color name="quantum_grey300">#ffe0e0e0</color>
+     <color name="quantum_grey400">#ffbdbdbd</color>
+     <color name="quantum_grey500">#ff9e9e9e</color>
+     <color name="quantum_grey600">#ff757575</color>
+     <color name="quantum_grey700">#ff616161</color>
+     <color name="quantum_grey800">#ff424242</color>
+     <color name="quantum_grey900">#ff212121</color>-->
+    <color name="quantum_indigo50">#ffe8eaf6</color>
+    <color name="quantum_indigo100">#ffc5cae9</color>
+    <color name="quantum_indigo200">#ff9fa8da</color>
+    <color name="quantum_indigo300">#ff7986cb</color>
+    <color name="quantum_indigo400">#ff5c6bc0</color>
+    <color name="quantum_indigo500">#ff3f51b5</color>
+    <color name="quantum_indigo600">#ff3949ab</color>
+    <color name="quantum_indigo700">#ff303f9f</color>
+    <color name="quantum_indigo800">#ff283593</color>
+    <color name="quantum_indigo900">#ff1a237e</color>
+    <color name="quantum_indigoA100">#ff8c9eff</color>
+    <color name="quantum_indigoA200">#ff536dfe</color>
+    <color name="quantum_indigoA400">#ff3d5afe</color>
+    <color name="quantum_indigoA700">#ff304ffe</color>
+    <color name="quantum_lightblue50">#ffe1f5fe</color>
+    <color name="quantum_lightblue100">#ffb3e5fc</color>
+    <color name="quantum_lightblue200">#ff81d4fa</color>
+    <color name="quantum_lightblue300">#ff4fc3f7</color>
+    <color name="quantum_lightblue400">#ff29b6f6</color>
+    <color name="quantum_lightblue500">#ff03a9f4</color>
+    <color name="quantum_lightblue600">#ff039be5</color>
+    <color name="quantum_lightblue700">#ff0288d1</color>
+    <color name="quantum_lightblue800">#ff0277bd</color>
+    <color name="quantum_lightblue900">#ff01579b</color>
+    <color name="quantum_lightblueA100">#ff80d8ff</color>
+    <color name="quantum_lightblueA200">#ff40c4ff</color>
+    <color name="quantum_lightblueA400">#ff00b0ff</color>
+    <color name="quantum_lightblueA700">#ff0091ea</color>
+    <color name="quantum_lightgreen50">#fff1f8e9</color>
+    <color name="quantum_lightgreen100">#ffdcedc8</color>
+    <color name="quantum_lightgreen200">#ffc5e1a5</color>
+    <color name="quantum_lightgreen300">#ffaed581</color>
+    <color name="quantum_lightgreen400">#ff9ccc65</color>
+    <color name="quantum_lightgreen500">#ff8bc34a</color>
+    <color name="quantum_lightgreen600">#ff7cb342</color>
+    <color name="quantum_lightgreen700">#ff689f38</color>
+    <color name="quantum_lightgreen800">#ff558b2f</color>
+    <color name="quantum_lightgreen900">#ff33691e</color>
+    <color name="quantum_lightgreenA100">#ffccff90</color>
+    <color name="quantum_lightgreenA200">#ffb2ff59</color>
+    <color name="quantum_lightgreenA400">#ff76ff03</color>
+    <color name="quantum_lightgreenA700">#ff64dd17</color>
+    <color name="quantum_lime50">#fff9fbe7</color>
+    <color name="quantum_lime100">#fff0f4c3</color>
+    <color name="quantum_lime200">#ffe6ee9c</color>
+    <color name="quantum_lime300">#ffdce775</color>
+    <color name="quantum_lime400">#ffd4e157</color>
+    <color name="quantum_lime500">#ffcddc39</color>
+    <color name="quantum_lime600">#ffc0ca33</color>
+    <color name="quantum_lime700">#ffafb42b</color>
+    <color name="quantum_lime800">#ff9e9d24</color>
+    <color name="quantum_lime900">#ff827717</color>
+    <color name="quantum_limeA100">#fff4ff81</color>
+    <color name="quantum_limeA200">#ffeeff41</color>
+    <color name="quantum_limeA400">#ffc6ff00</color>
+    <color name="quantum_limeA700">#ffaeea00</color>
+    <color name="quantum_orange50">#fffff3e0</color>
+    <color name="quantum_orange100">#ffffe0b2</color>
+    <color name="quantum_orange200">#ffffcc80</color>
+    <color name="quantum_orange300">#ffffb74d</color>
+    <color name="quantum_orange400">#ffffa726</color>
+    <color name="quantum_orange500">#ffff9800</color>
+    <color name="quantum_orange600">#fffb8c00</color>
+    <color name="quantum_orange700">#fff57c00</color>
+    <color name="quantum_orange800">#ffef6c00</color>
+    <color name="quantum_orange900">#ffe65100</color>
+    <color name="quantum_orangeA100">#ffffd180</color>
+    <color name="quantum_orangeA200">#ffffab40</color>
+    <color name="quantum_orangeA400">#ffff9100</color>
+    <color name="quantum_orangeA700">#ffff6d00</color>
+    <color name="quantum_pink50">#fffce4ec</color>
+    <color name="quantum_pink100">#fff8bbd0</color>
+    <color name="quantum_pink200">#fff48fb1</color>
+    <color name="quantum_pink300">#fff06292</color>
+    <color name="quantum_pink400">#ffec407a</color>
+    <color name="quantum_pink500">#ffe91e63</color>
+    <color name="quantum_pink600">#ffd81b60</color>
+    <color name="quantum_pink700">#ffc2185b</color>
+    <color name="quantum_pink800">#ffad1457</color>
+    <color name="quantum_pink900">#ff880e4f</color>
+    <color name="quantum_pinkA100">#ffff80ab</color>
+    <color name="quantum_pinkA200">#ffff4081</color>
+    <color name="quantum_pinkA400">#fff50057</color>
+    <color name="quantum_pinkA700">#ffc51162</color>
+    <color name="quantum_purple50">#fff3e5f5</color>
+    <color name="quantum_purple100">#ffe1bee7</color>
+    <color name="quantum_purple200">#ffce93d8</color>
+    <color name="quantum_purple300">#ffba68c8</color>
+    <color name="quantum_purple400">#ffab47bc</color>
+    <color name="quantum_purple500">#ff9c27b0</color>
+    <color name="quantum_purple600">#ff8e24aa</color>
+    <color name="quantum_purple700">#ff7b1fa2</color>
+    <color name="quantum_purple800">#ff6a1b9a</color>
+    <color name="quantum_purple900">#ff4a148c</color>
+    <color name="quantum_purpleA100">#ffea80fc</color>
+    <color name="quantum_purpleA200">#ffe040fb</color>
+    <color name="quantum_purpleA400">#ffd500f9</color>
+    <color name="quantum_purpleA700">#ffaa00ff</color>
+    <color name="quantum_teal50">#ffe0f2f1</color>
+    <color name="quantum_teal100">#ffb2dfdb</color>
+    <color name="quantum_teal200">#ff80cbc4</color>
+    <color name="quantum_teal300">#ff4db6ac</color>
+    <color name="quantum_teal400">#ff26a69a</color>
+    <color name="quantum_teal500">#ff009688</color>
+    <color name="quantum_teal600">#ff00897b</color>
+    <color name="quantum_teal700">#ff00796b</color>
+    <color name="quantum_teal800">#ff00695c</color>
+    <color name="quantum_teal900">#ff004d40</color>
+    <color name="quantum_tealA100">#ffa7ffeb</color>
+    <color name="quantum_tealA200">#ff64ffda</color>
+    <color name="quantum_tealA400">#ff1de9b6</color>
+    <color name="quantum_tealA700">#ff00bfa5</color>
+    <color name="quantum_vanillablue50">#ffe3f2fd</color>
+    <color name="quantum_vanillablue100">#ffbbdefb</color>
+    <color name="quantum_vanillablue200">#ff90caf9</color>
+    <color name="quantum_vanillablue300">#ff64b5f6</color>
+    <color name="quantum_vanillablue400">#ff42a5f5</color>
+    <color name="quantum_vanillablue500">#ff2196f3</color>
+    <color name="quantum_vanillablue600">#ff1e88e5</color>
+    <color name="quantum_vanillablue700">#ff1976d2</color>
+    <color name="quantum_vanillablue800">#ff1565c0</color>
+    <color name="quantum_vanillablue900">#ff0d47a1</color>
+    <color name="quantum_vanillablueA100">#ff82b1ff</color>
+    <color name="quantum_vanillablueA200">#ff448aff</color>
+    <color name="quantum_vanillablueA400">#ff2979ff</color>
+    <color name="quantum_vanillablueA700">#ff2962ff</color>
+    <color name="quantum_vanillagreen50">#ffe8f5e9</color>
+    <color name="quantum_vanillagreen100">#ffc8e6c9</color>
+    <color name="quantum_vanillagreen200">#ffa5d6a7</color>
+    <color name="quantum_vanillagreen300">#ff81c784</color>
+    <color name="quantum_vanillagreen400">#ff66bb6a</color>
+    <color name="quantum_vanillagreen500">#ff4caf50</color>
+    <color name="quantum_vanillagreen600">#ff43a047</color>
+    <color name="quantum_vanillagreen700">#ff388e3c</color>
+    <color name="quantum_vanillagreen800">#ff2e7d32</color>
+    <color name="quantum_vanillagreen900">#ff1b5e20</color>
+    <color name="quantum_vanillagreenA100">#ffb9f6ca</color>
+    <color name="quantum_vanillagreenA200">#ff69f0ae</color>
+    <color name="quantum_vanillagreenA400">#ff00e676</color>
+    <color name="quantum_vanillagreenA700">#ff00c853</color>
+    <color name="quantum_vanillared50">#ffffebee</color>
+    <color name="quantum_vanillared100">#ffffcdd2</color>
+    <color name="quantum_vanillared200">#ffef9a9a</color>
+    <color name="quantum_vanillared300">#ffe57373</color>
+    <color name="quantum_vanillared400">#ffef5350</color>
+    <color name="quantum_vanillared500">#fff44336</color>
+    <color name="quantum_vanillared600">#ffe53935</color>
+    <color name="quantum_vanillared700">#ffd32f2f</color>
+    <color name="quantum_vanillared800">#ffc62828</color>
+    <color name="quantum_vanillared900">#ffb71c1c</color>
+    <color name="quantum_vanillaredA100">#ffff8a80</color>
+    <color name="quantum_vanillaredA200">#ffff5252</color>
+    <color name="quantum_vanillaredA400">#ffff1744</color>
+    <color name="quantum_vanillaredA700">#ffd50000</color>
+    <color name="quantum_yellow50">#fffffde7</color>
+    <color name="quantum_yellow100">#fffff9c4</color>
+    <color name="quantum_yellow200">#fffff59d</color>
+    <color name="quantum_yellow300">#fffff176</color>
+    <color name="quantum_yellow400">#ffffee58</color>
+    <color name="quantum_yellow500">#ffffeb3b</color>
+    <color name="quantum_yellow600">#fffdd835</color>
+    <color name="quantum_yellow700">#fffbc02d</color>
+    <color name="quantum_yellow800">#fff9a825</color>
+    <color name="quantum_yellow900">#fff57f17</color>
+    <color name="quantum_yellowA100">#ffffff8d</color>
+    <color name="quantum_yellowA200">#ffffff00</color>
+    <color name="quantum_yellowA400">#ffffea00</color>
+    <color name="quantum_yellowA700">#ffffd600</color>
+    <color name="half_transparent_status_bar">#61000000</color>
+
+    <color name="trips_background">@color/quantum_grey100</color>
+    <color name="default_sheet_background">#ff00a699</color>
+    <color name="text_color_main">#ff484848</color>
+    <color name="action_divider">#ffd6d6d6</color>
+
+    <color name="selected_chip_background_color">@color/quantum_lightblue500</color>
+    <color name="unselected_chip_background_color">@color/quantum_grey300</color>
+
+    <color name="very_light_gray">#ffe4e4e4</color>
+    <color name="normal_button_text">#ff333333</color>
+    <color name="white_google_plus_button_text">#ffffffff</color>
+    <color name="red_google_plus_button_text">#dc4e41</color>
+    <color name="dark_google_button_text">#757575</color>
+    <color name="rating_star_empty">@color/very_light_gray</color>
+    <color name="rating_star_filled">#fffdb245</color>
+    <color name="border_color">#ffececec</color>
+    <color name="light_gray">#ffcccccc</color>
+    <color name="translucent_white">#7fffffff</color>
+    <color name="user_profile_header_blended_text">@color/translucent_white</color>
+
+    <color name="button_bar_divider">#ffdbdbdb</color>
+    <color name="button_bar_background">#ffffffff</color>
+    <color name="virtual_button_pressed">#33969696</color>
+    <color name="app_background_new">#fff7f7f7</color>
+    <color name="standard_text">#ff1a1a1a</color>
+    <color name="gray_button_normal">#ff6d7280</color>
+    <color name="gray_button_pressed">#ff555a67</color>
+
+    <color name="batman_dark_grey">#ff4e595d</color>
+    <color name="batman_light_green">#ffc5de35</color>
+    <color name="batman_light_grey">#ffefeff4</color>
+    <color name="batman_light_medium_grey">#ffc7cdcf</color>
+    <color name="batman_medium_grey">#ff959b9e</color>
+
+    <!-- search -->
+    <color name="search_box_click_color">#4d999999</color>
+    <color name="search_box_click_darker_color">#ff999999</color>
+    <color name="search_plate_hint_color">#ffb2b2b2</color>
+    <color name="search_plate_hint_text_color">#42000000</color>
+    <color name="search_plate_suggestion_divider_background">#ffe0e0e0</color>
+    <color name="search_plate_text_color">#ff212121</color>
+    <color name="dialog_background">#7f000000</color>
+    <color name="closet_activity_background">#fff2f2f2</color>
+    <color name="closet_card_background">#ffffffff</color>
+    <color name="closet_undo_overlay_background">#ffeeeeee</color>
+    <color name="cluster_divider_color">#32000000</color>
+    <color name="cluster_divider_shadow">#b3ffffff</color>
+
+    <color name="card">#fff</color>
+
+    <!--Dashboard-->
+    <color name="key_color_protection_overlay">#33000000</color>
+    <color name="expanded_module_background">#fff7f7f7</color>
+
+    <color name="selection_border">#ff4285f4</color>
+    <color name="selection_enabled_scrim">#2d000000</color>
+    <color name="selection_highlight_color">#ffc9ebf8</color>
+    <color name="selection_main_background">#ff607d8b</color>
+    <color name="selection_overscroll_color">#ac4285f4</color>
+    <color name="selection_promo_background_color">#ff607d8b</color>
+    <color name="selection_ui_container_background">#ff000000</color>
+
+    <color name="qp_birthday_blue">#ffec6392</color>
+    <color name="qp_blue">#ff4285f4</color>
+    <color name="qp_blue_dark">#ff356ac3</color>
+    <color name="qp_card_separator">#1f000000</color>
+    <color name="qp_divider">#1f000000</color>
+    <color name="qp_drawer_background">#ffffffff</color>
+    <color name="qp_drawer_gel_status_bar_overlay">#cd000000</color>
+    <color name="qp_drawer_icon">#84000000</color>
+    <color name="qp_drawer_icon_disabled">#16000000</color>
+    <color name="qp_drawer_selected">#ff4285f4</color>
+    <color name="qp_drawer_status_text">#ff757575</color>
+    <color name="qp_drawer_text">#de000000</color>
+    <color name="qp_drawer_text_disabled">#43000000</color>
+    <color name="qp_feedback_overlay">#0d000000</color>
+    <color name="qp_field_border_default">#29000000</color>
+    <color name="qp_field_border_focus">#ff4456a6</color>
+    <color name="qp_flight_progress_no_status">#61000000</color>
+    <color name="qp_flight_progress_no_status_plane">#ff1f1f1f</color>
+    <color name="qp_gray_module">#08000000</color>
+    <color name="qp_highlight">#ffc6dafc</color>
+    <color name="qp_ripple_dark">#20ffffff</color>
+    <color name="qp_selected_gray">#ffe8e8e8</color>
+    <color name="qp_star_rating_orange">#ffeb6e00</color>
+    <color name="qp_status_green">#ff0f9d58</color>
+    <color name="qp_status_green_dark">#ff0c7d46</color>
+    <color name="qp_status_none">#ff455a64</color>
+    <color name="qp_status_none_dark">#ff374850</color>
+    <color name="qp_status_red">#ffdb4437</color>
+    <color name="qp_status_red_dark">#ffa42822</color>
+    <color name="qp_status_yellow">#fff2a600</color>
+    <color name="qp_status_yellow_dark">#ffc18400</color>
+    <color name="qp_text_b1">#de000000</color>
+    <color name="qp_text_b2">#84000000</color>
+    <color name="qp_text_b3">#61000000</color>
+    <color name="qp_text_w1">#ffffffff</color>
+    <color name="qp_text_w2">#a8ffffff</color>
+
+
+    <color name="month_dna_conflict_time_color">#FF333333</color>
+
+    <!-- Dark Color DayView -->
+    <color name="pressed">#330066ff</color>
+    <color name="week_today_dark">#90caf9</color>
+    <color name="week_saturday_dark">#fafafa</color>
+    <color name="week_sunday_dark">#fafafa</color>
+    <color name="calendar_date_banner_text_color_dark">#ffffff</color>
+    <color name="calendar_future_bg_color_dark">#000000</color>
+    <color name="calendar_hour_background_dark">#000000</color>
+    <color name="calendar_hour_label_dark">#ffffff</color>
+    <color name="calendar_grid_area_selected_dark">#e633b5e5</color>
+    <color name="calendar_grid_line_inner_horizontal_color_dark">#FFCCCCCC</color>
+    <color name="calendar_grid_line_inner_vertical_color_dark">#FFCCCCCC</color>
+    <color name="calendar_grid_line_highlight_color_dark">#ff707070</color>
+    <color name="pressed_dark">#330066ff</color>
+    <color name="day_event_clicked_background_color_dark">#8033B5E5</color>
+    <color name="calendar_event_text_color_dark">#ffFFFFFF</color>
+    <color name="month_event_other_color_dark">#FF666666</color>
+
+    <color name="week_today">#802979ff</color>
+    <color name="week_saturday">#80333333</color>
+    <color name="week_sunday">#80333333</color>
+    <color name="calendar_future_bg_color">#ffffffff</color>
+    <color name="calendar_hour_label">#ff666666</color>
+    <color name="calendar_hour_background">#ffEEEEEE</color>
+    <color name="calendar_date_banner_text_color">#ff666666</color>
+    <color name="calendar_grid_area_selected">#e633b5e5</color>
+    <color name="calendar_grid_line_inner_horizontal_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_inner_vertical_color">#FFCCCCCC</color>
+    <color name="calendar_grid_line_highlight_color">#ff707070</color>
+
+    <!-- Dark Color MonthView -->
+    <color name="month_day_number_dark">#ffffff</color>
+    <color name="month_day_number_other_dark">#616161</color>
+    <color name="month_today_number_dark">#ffffff</color>
+    <color name="month_event_color_dark">#ffffff</color>
+    <color name="agenda_item_declined_color_dark">#616161</color>
+    <color name="agenda_item_where_declined_text_color_dark">#000000</color>
+    <color name="month_event_extra_color_dark">#ffffff</color>
+    <color name="month_event_extra_other_color_dark">#000000</color>
+    <color name="month_today_bgcolor_dark">#6efffffa</color>
+    <color name="month_focus_month_bgcolor_dark">#212121</color>
+    <color name="month_other_bgcolor_dark">#000000</color>
+    <color name="today_highlight_color_dark">#0033b5e5</color>
+    <color name="day_clicked_background_color_dark">#FF33B5E5</color>
+    <color name="month_day_names_color_dark">#ffffff</color>
+    <color name="month_saturday_dark">#f5f5f5</color>
+    <color name="month_sunday_dark">#f5f5f5</color>
+
+    <!-- Text color of a clicked event in the day/week view -->
+    <color name="day_event_clicked_background_color">#8033B5E5</color>
+    <color name="calendar_event_text_color">#ffFFFFFF</color>
+    <color name="month_event_other_color">#FF666666</color>
+    <color name="new_event_hint_text_color">#FFFFFFFF</color>
+    <color name="panel_text_foreground">#ffffffff</color>
+    <color name="day_past_background_color">#22DDDDDD</color>
+
+    <!-- Text color of the date in the Calendar widget -->
+
+    <color name="agenda_item_not_selected">#00000000</color>
+    <!-- Text color of declined events in agenda view -->
+    <color name="agenda_item_declined_color">#66333333</color>
+    <!-- Text color of non-declined events in agenda view -->
+    <color name="agenda_item_standard_color">#FF333333</color>
+    <!-- Background Color of present/future events in agenda view  -->
+    <color name="agenda_day_bar_background_color">#FFFFFFFF</color>
+    <!-- Background Color of past events in agenda view  -->
+    <color name="agenda_past_days_bar_background_color">#FFDDDDDD</color>
+    <!-- Color of the separator between the past and the present/future in agenda view  -->
+    <color name="agenda_past_present_separator_color">#b2ff0000</color>
+    <!-- General background color in agenda view  -->
+    <color name="agenda_general_background_color">#FFEEEEEE</color>
+    <!-- Agenda day item text color  -->
+    <color name="agenda_day_item_text_color">#FF666666</color>
+    <!-- Color of the event location's text in an agenda item  -->
+    <color name="agenda_item_where_text_color">#FF666666</color>
+    <!-- Color of the event location's text in an agenda item  -->
+    <color name="agenda_item_where_declined_text_color">#66666666</color>
+    <!-- Color of text in the calendar view selection menu -->
+    <color name="calendar_view_switch_menu_text_color">#FF666666</color>
+    <!-- Light color of text in the calendar view selection menu -->
+    <color name="calendar_view_switch_menu_text_color_light">#FF888888</color>
+    <!-- Color of the separator between items in the agenda list -->
+    <color name="agenda_list_separator_color">#FFBBBBBB</color>
+    <!-- Text color of a selected items in the agenda list - trumps all other text colors -->
+    <color name="agenda_selected_background_color">@android:color/holo_blue_dark</color>
+    <!-- Background color of a selected items in the agenda list -->
+    <color name="agenda_selected_text_color">#FFFFFFFF</color>
+
+    <!-- Dark Color AgendaView -->
+    <color name="agenda_general_background_color_dark">#000000</color>
+    <color name="agenda_item_standard_color_dark">#ffffff</color>
+    <color name="agenda_item_where_text_color_dark">#f5f5f5</color>
+    <color name="agenda_day_item_text_color_dark">#e0e0e0</color>
+
+
+    <color name="event_info_headline_transparent_color">#B3FFFFFF</color>
+    <color name="event_info_headline_link_color">#FFFFFFFF</color>
+    <color name="event_info_organizer_color">#FF666666</color>
+    <color name="event_info_description_color">#FF666666</color>
+    <color name="event_info_body_color">#FF666666</color>
+    <color name="event_info_label_color">#FF999999</color>
+    <color name="event_info_label_background_color">#FFDDDDDD</color>
+
+    <color name="alert_event_title">#FFFFFFFF</color>
+    <color name="alert_event_other">#FF999999</color>
+    <color name="alert_past_event">#8F999999</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="indigo">#ff4768fd</color>
+    <color name="indigo_dark">#ff3c54fe</color>
+    <color name="indigo_transparent">#e54768fd</color>
+    <color name="highlight_light">#33ffffff</color>
+    <color name="mtrl_btn_bg_color_disabled">#1f000000</color>
+    <color name="mtrl_btn_text_color_disabled">#61000000</color>
+    <color name="mtrl_btn_transparent_bg_color">#00ffffff</color>
+    <color name="dark_gray">#ff808080</color>
+    <color name="default_tag_color">#ff999999</color>
+
+
+</resources>

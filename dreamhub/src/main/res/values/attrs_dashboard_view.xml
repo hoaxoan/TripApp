@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="qpActionIconAlpha" format="float" />
+    <attr name="qpActionIconTint" format="reference|color" />
+    <attr name="qpCardElevation" format="dimension" />
+    <attr name="qpDarkTextColor" format="reference|color" />
+    <attr name="qpH1FontFamily" format="string" />
+    <attr name="qpH1TextSize" format="dimension" />
+    <attr name="qpLightSubtitleTextColor" format="reference|color" />
+    <attr name="qpLightTextColor" format="reference|color" />
+    <attr name="qpLightTitleTextColor" format="reference|color" />
+    <attr name="qpNormalTextColor" format="reference|color" />
+
+    <attr name="vogPromptColor" format="reference|color" />
+    <attr name="vogPromptTextStyle" format="integer" />
+    <attr name="quickActionSeparator" format="reference|color" />
+
+</resources>

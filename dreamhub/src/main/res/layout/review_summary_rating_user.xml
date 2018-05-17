@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:winter="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4.0dip"
+    android:paddingEnd="25.0dip"
+    android:paddingStart="25.0dip"
+    android:paddingTop="4.0dip"
+    android:weightSum="1"
+    android:gravity="center"
+    android:id="@+id/review_rate_container">
+
+    <com.winter.dreamhub.widget.CircularImageView
+        android:id="@+id/author_image"
+        android:layout_width="@dimen/avatar_bounds"
+        android:layout_height="@dimen/avatar_bounds"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/avatar_margin"
+        android:layout_marginStart="@dimen/avatar_margin"
+        android:foreground="@drawable/avatar_ripple"
+        android:padding="@dimen/avatar_padding"
+        android:stateListAnimator="@animator/raise"
+        android:src="@drawable/ic_player" />
+
+    <TextView
+        android:id="@+id/authorname_textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="#ff222222"
+        android:textColorLink="#ff33b5e5"
+        android:textSize="16sp" />
+
+    <RatingBar
+        android:id="@+id/review_textbox"
+        style="@style/CollapsedBodyTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:numStars="5" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffdedede"
+        android:minHeight="1.0px"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/padding_normal"
+    android:paddingTop="@dimen/spacing_large">
+
+    <com.winter.dreamhub.widget.ForegroundImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_bounds"
+        android:layout_height="@dimen/avatar_bounds"
+        android:layout_gravity="top"
+        android:layout_marginEnd="@dimen/avatar_margin"
+        android:layout_marginStart="@dimen/avatar_margin"
+        android:padding="@dimen/avatar_padding"
+        android:src="@drawable/ic_player" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/til_margin_fix"
+        android:layout_weight="1"
+        app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_reply"
+            android:inputType="textCapSentences"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/post_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="@dimen/spacing_normal"
+        android:src="@drawable/ic_add_comment" />
+
+</LinearLayout>

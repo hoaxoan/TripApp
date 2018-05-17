@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color" />
+        <attr name="actionBarInsetStart" format="dimension" />
+        <attr name="spinnerBarInsetStart" format="dimension" />
+        <attr name="popupItemBackground" format="reference" />
+        <attr name="photoItemForeground" format="reference" />
+        <attr name="photoItemForegroundBorderless" format="reference" />
+        <attr name="imageItemBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBehavior_Params">
+        <attr name="tabLayoutId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AspectRatioView">
+        <attr name="aspectRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawShadowFrameLayout">
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="appInsetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="NavDrawerItemView">
+        <attr name="iconTints" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorOptionsView">
+        <attr name="agendaCurrentDayTextColor" format="color" />
+        <attr name="calendarHeaderColor" format="color" />
+        <attr name="calendarColor" format="color" />
+        <attr name="calendarDayTextColor" format="color" />
+        <attr name="calendarPastDayTextColor" format="color" />
+        <attr name="calendarCurrentDayTextColor" format="color" />
+        <attr name="fabColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FabSpeedDial">
+        <!-- Compulsory attributes -->
+        <attr name="fabMenu" format="reference" />
+        <attr name="fabGravity">
+            <flag name="bottom_end" value="0x00" />
+            <flag name="bottom_start" value="0x01" />
+            <flag name="top_end" value="0x02" />
+            <flag name="top_start" value="0x03" />
+        </attr>
+
+        <!-- Optional attributes -->
+        <attr name="fabDrawable" format="color|reference" />
+        <attr name="fabDrawableTint" format="color|reference" />
+        <attr name="fabBackgroundTint" format="color|reference" />
+
+        <attr name="miniFabBackgroundTint" format="color|reference" />
+        <attr name="miniFabDrawableTint" format="color|reference" />
+        <attr name="miniFabTitleTextColor" format="color|reference" />
+
+        <attr name="touchGuard" format="boolean" />
+        <attr name="touchGuardDrawable" format="color|reference" />
+
+        <attr name="miniFabTitleBackgroundTint" format="color|reference" />
+        <attr name="miniFabTitlesEnabled" format="boolean" />
+
+
+    </declare-styleable>
+
+    <declare-styleable name="DropdownEditSegment">
+        <attr name="label_color" format="color|reference" />
+        <attr name="dropdown_label_color" format="color|reference" />
+        <attr name="unlisted_color_label" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioFrameLayout">
+        <attr name="fixedAspectRatio" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="collapsedLineCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="maxRating" format="integer" />
+        <attr name="filledDrawable" format="integer" />
+        <attr name="unfilledDrawable" format="integer" />
+    </declare-styleable>
+
+</resources>

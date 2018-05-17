@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/entity_info_first_line"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/landmark_item_small_padding" />
+
+    <ImageView
+        android:id="@+id/entity_full_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_things_to_do_remove_saved_landmark"
+        android:paddingLeft="@dimen/landmark_item_common_padding"
+        android:paddingRight="@dimen/landmark_item_common_padding"
+        android:paddingTop="@dimen/landmark_item_star_top_padding"
+        android:src="@drawable/ic_expanded_star_on"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/entity_empty_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_things_to_do_save_landmark"
+        android:paddingLeft="@dimen/landmark_item_common_padding"
+        android:paddingRight="@dimen/landmark_item_common_padding"
+        android:paddingTop="@dimen/landmark_item_star_top_padding"
+        android:src="@drawable/quantum_ic_star_border_grey600_24"
+        android:visibility="gone" />
+</LinearLayout>

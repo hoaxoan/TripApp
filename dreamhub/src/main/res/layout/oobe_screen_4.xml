@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/timely_background_color">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/cluster_name_travel"
+        android:descendantFocusability="afterDescendants">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="?actionBarSize"
+            android:background="@color/timely_background_color"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/event_scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/info_scroll_padding_bottom">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="62.0dip"
+                            android:layout_height="62.0dip"
+                            android:paddingBottom="8.0dip"
+                            android:paddingLeft="16.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingTop="8.0dip"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="24.0dip"
+                            android:layout_marginTop="22.0dip"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="Transactions"
+                            android:textColor="#ff212121"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_segment_divider_height"
+                        android:background="@color/edit_segment_divider" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="62.0dip"
+                            android:layout_height="62.0dip"
+                            android:paddingBottom="8.0dip"
+                            android:paddingLeft="16.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingTop="8.0dip"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="24.0dip"
+                            android:layout_marginTop="22.0dip"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="Deposits"
+                            android:textColor="#ff212121"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_segment_divider_height"
+                        android:background="@color/edit_segment_divider" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="62.0dip"
+                            android:layout_height="62.0dip"
+                            android:paddingBottom="8.0dip"
+                            android:paddingLeft="16.0dip"
+                            android:paddingRight="16.0dip"
+                            android:paddingTop="8.0dip"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="24.0dip"
+                            android:layout_marginTop="22.0dip"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="Settlements"
+                            android:textColor="#ff212121"
+                            android:textSize="16.0sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edit_segment_divider_height"
+                        android:background="@color/edit_segment_divider" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                style="@style/Edit.HeaderButton2"
+                android:layout_width="@dimen/edit_segment_icon_width"
+                android:layout_height="?actionBarSize"
+                android:background="?android:selectableItemBackground"
+                android:contentDescription="@string/close_label"
+                android:focusable="false"
+                android:src="@drawable/ic_menu_white_24" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="?actionBarSize"
+                android:gravity="center"
+                android:text="Transactions"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>

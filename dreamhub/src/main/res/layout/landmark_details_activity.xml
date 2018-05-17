@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.ElasticDragDismissFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draggable_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dragDismissDistance="@dimen/drag_dismiss_distance"
+    app:dragDismissScale="0.95">
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_light"
+        android:descendantFocusability="afterDescendants"
+        android:transitionGroup="false"
+        android:transitionName="@string/transition_shot_background">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/scrollable_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <include layout="@layout/landmark_details_review" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading_layout"
+        android:visibility="gone" />
+
+    <com.winter.dreamhub.widget.WindowFitFrameLayout
+        android:id="@+id/toolbar_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_actionbar" />
+    </com.winter.dreamhub.widget.WindowFitFrameLayout>
+
+</com.winter.dreamhub.widget.ElasticDragDismissFrameLayout>

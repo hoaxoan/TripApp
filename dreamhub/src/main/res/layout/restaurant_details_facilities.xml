@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LandmarkDetails.DirectionsCallWebsite"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/landmark_details_common_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_guest"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/p3_guest" />
+
+        <TextView
+            android:id="@+id/text_guest"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_triple_line_spacing_margin"
+            android:gravity="center_horizontal"
+            android:text="1 guest" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_rooms"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/p3_rooms" />
+
+        <TextView
+            android:id="@+id/text_rooms"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_triple_line_spacing_margin"
+            android:gravity="center_horizontal"
+            android:text="1 room" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_beds"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/p3_beds" />
+
+        <TextView
+            android:id="@+id/text_beds"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_triple_line_spacing_margin"
+            android:gravity="center_horizontal"
+            android:text="1 bed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_baths"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/p3_bathrooms" />
+
+        <TextView
+            android:id="@+id/text_baths"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_triple_line_spacing_margin"
+            android:gravity="center_horizontal"
+            android:text="1.5 bath" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.WindowFitFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/trips"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/toolbar_height">
+
+        <!--<include
+            android:id="@+id/trips_privacy_layout"
+            layout="@layout/trips_privacy_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />-->
+
+        <com.winter.dreamhub.widget.MultiSwipeRefreshLayout
+            android:id="@+id/trips_swipe_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ProgressBar
+                    android:id="@android:id/empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:indeterminateTint="?android:colorAccent"
+                    android:indeterminateTintMode="src_in"
+                    android:paddingBottom="@dimen/spacing_huge"
+                    android:paddingTop="@dimen/spacing_huge"
+                    android:visibility="gone" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clipToPadding="false"
+                    android:divider="@null"
+                    android:dividerHeight="0.0dip"
+                    android:paddingBottom="@dimen/trips_list_margin_bottom" />
+
+                <include
+                    android:id="@+id/no_data_view"
+                    layout="@layout/no_trips_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </com.winter.dreamhub.widget.MultiSwipeRefreshLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/headerbar"
+        style="@style/HeaderBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:elevation="1.0dip"
+        android:layout_marginTop="@dimen/keyline_0"
+        android:layout_marginLeft="@dimen/action_bar_padding"
+        android:layout_marginRight="@dimen/action_bar_padding">
+
+        <include layout="@layout/search_box" />
+
+    </LinearLayout>
+
+</com.winter.dreamhub.widget.WindowFitFrameLayout>

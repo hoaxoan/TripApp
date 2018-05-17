@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.FixedAspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/photo_carousel_item_height"
+    android:importantForAccessibility="noHideDescendants"
+    android:paddingRight="@dimen/photo_carousel_item_padding_right">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop" />
+</com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>

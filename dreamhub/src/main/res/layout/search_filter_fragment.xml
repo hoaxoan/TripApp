@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filter_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/filters_sheet_background"
+    android:clickable="true"
+    android:elevation="@dimen/bottom_sheet_elevation"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_peek_height"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/bottom_sheet_peek_height" />
+
+
+    <TextView
+        android:id="@+id/group_title"
+        style="@style/TextAppearance.Winter.Subhead"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guide_peek_height"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_normal"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group_title"
+        app:spanCount="2" />
+
+    <View
+        android:id="@+id/filters_header_shadow"
+        android:layout_width="0.0dip"
+        android:layout_height="4.0dip"
+        android:alpha="0.0"
+        android:background="@drawable/filters_sheet_header_shadow"
+        android:stateListAnimator="@animator/active_alpha"
+        app:layout_constraintTop_toBottomOf="@+id/guide_peek_height" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/filter_description_tags"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_normal"
+        android:fadingEdgeLength="@dimen/margin_large"
+        android:orientation="horizontal"
+        android:requiresFadingEdge="horizontal"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintEnd_toStartOf="@+id/clear_filters_shortcut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/clear_filters_shortcut"
+        android:layout_width="@dimen/a11y_min_touch_target"
+        android:layout_height="@dimen/a11y_min_touch_target"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/a11y_clear_tag_filters"
+        android:scaleType="center"
+        android:tint="@color/dark_gray"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_clear_all" />
+
+    <View
+        android:id="@+id/expand"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintEnd_toStartOf="@+id/clear_filters_shortcut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/Widget.Winter.BorderlessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:minWidth="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:paddingTop="0.0dip"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/collapse_arrow"
+        android:layout_width="@dimen/a11y_min_touch_target"
+        android:layout_height="@dimen/a11y_min_touch_target"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/a11y_collapse_filters_sheet"
+        android:scaleType="center"
+        android:tint="@color/dark_gray"
+        app:layout_constraintBottom_toTopOf="@+id/guide_peek_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chevron_collapse" />
+</android.support.constraint.ConstraintLayout>

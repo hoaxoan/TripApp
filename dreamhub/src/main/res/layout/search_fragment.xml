@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffefeff4"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/topHalf"
+        android:layout_width="fill_parent"
+        android:layout_height="215.0dip">
+
+        <ImageView
+            android:id="@+id/ivHero"
+            android:layout_width="fill_parent"
+            android:layout_height="215.0dip"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="100.0dip" />
+
+        <ImageView
+            android:id="@+id/ivDefaultWordmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16.0dip"
+            android:src="@drawable/ic_logo" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginTop="44.0dip"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvHeaderText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:shadowColor="#ff959b9e"
+                android:shadowRadius="12.0"
+                android:textColor="#ffffffff"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@+id/tvHeaderText3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:shadowColor="#ff959b9e"
+                android:shadowRadius="20.0"
+                android:textColor="#ffffffff"
+                android:textSize="50.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvHeaderText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:padding="0.0dip"
+                android:shadowColor="#ff959b9e"
+                android:shadowRadius="20.0"
+                android:textColor="#fff5f5f5"
+                android:textSize="60.0sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnHero"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom|center"
+                android:drawablePadding="8.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:textAllCaps="false"
+                android:textColor="#ffffffff"
+                android:textSize="14.0sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/vBottomHalf"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_weight="1.0">
+
+        <FrameLayout
+            android:id="@+id/svHolder"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16.0dip">
+
+            <include layout="@layout/search_widget_medium" />
+
+        </FrameLayout>
+
+        <GridView
+            android:id="@+id/gvExploreQuickSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/svHolder"
+            android:layout_marginBottom="56.0dip"
+            android:gravity="center"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.ElasticDragDismissFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draggable_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dragDismissDistance="@dimen/drag_dismiss_distance"
+    app:dragDismissScale="0.95">
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_light"
+        android:descendantFocusability="afterDescendants"
+        android:transitionGroup="false"
+        android:transitionName="@string/transition_shot_background">
+
+        <!-- Action bar layout -->
+        <LinearLayout
+            style="@style/HeaderBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar_actionbar" />
+
+        </LinearLayout>
+
+        <!-- Main layout -->
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/action_bar_height">
+
+            <!-- Main layout -->
+            <ScrollView
+                android:id="@+id/login_scroll_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/app_background_new"
+                android:scrollbarStyle="outsideOverlay">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:orientation="vertical"
+                        android:padding="@dimen/rhythm48_large_gutter">
+
+                        <RelativeLayout
+                            android:id="@+id/social_buttons_wrapper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/gplus_signin"
+                                style="@style/button_google_light"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10.0dip"
+                                android:gravity="center"
+                                android:text="@string/google_plus_signin" />
+
+                            <FrameLayout
+                                android:id="@+id/facebook_container"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/gplus_signin">
+
+                                <com.facebook.login.widget.LoginButton
+                                    android:id="@+id/facebook_signin"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone" />
+
+                                <Button
+                                    android:id="@+id/custom_facebook_signin"
+                                    style="@style/narrow_facebook_button"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="10.0dip"
+                                    android:gravity="center"
+                                    android:text="@string/facebook_signin" />
+                            </FrameLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/stroke_width"
+                                android:layout_below="@+id/facebook_container"
+                                android:background="@color/stroke_grey" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/username_float_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/spacing_micro"
+                                app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/username"
+                                    style="@style/edit_text_field"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/username"
+                                    android:imeOptions="actionNext"
+                                    android:selectAllOnFocus="true" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/email_float_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/spacing_micro"
+                                app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/email"
+                                    style="@style/edit_text_field"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/email_address"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="textEmailAddress"
+                                    android:selectAllOnFocus="true" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <CheckBox
+                                android:id="@+id/permission_primer"
+                                style="@style/Winter.HintCheckBox"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/spacing_normal"
+                                android:text="@string/get_accounts_permission_primer_message" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/password_float_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/spacing_micro"
+                                app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+                                <android.support.design.widget.TextInputEditText
+                                    android:id="@+id/password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/password"
+                                    android:imeOptions="actionGo"
+                                    android:inputType="textPassword"
+                                    android:selectAllOnFocus="true" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                        </LinearLayout>
+
+
+                        <Button
+                            android:id="@+id/register"
+                            style="@style/Winter.Button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="?android:actionBarSize"
+                            android:layout_marginTop="@dimen/activity_vertical_margin"
+                            android:onClick="doRegister"
+                            android:text="@string/register_button_label" />
+
+
+                        <TextView
+                            android:id="@+id/link_login"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/activity_vertical_margin"
+                            android:gravity="center"
+                            android:text="@string/link_login_label"
+                            android:textSize="@dimen/text_size_large" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/loading" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading_layout"
+        android:visibility="gone" />
+<!--
+    <com.winter.dreamhub.widget.WindowFitFrameLayout
+        android:id="@+id/toolbar_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_actionbar" />
+    </com.winter.dreamhub.widget.WindowFitFrameLayout>-->
+
+</com.winter.dreamhub.widget.ElasticDragDismissFrameLayout>

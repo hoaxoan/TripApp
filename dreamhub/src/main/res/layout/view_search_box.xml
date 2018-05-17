@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/search_box_title"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/search_box"
+        style="@style/photos_search_suggestions_EditTextTheme"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:layout_weight="1.0"
+        android:hint="Search"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="textNoSuggestions"
+        android:textColorHint="#ffbdbdbd"
+        android:textSize="16.0sp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <ImageButton
+        android:id="@+id/clear_button"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:background="?actionBarItemBackground"
+        android:contentDescription="Clear search text"
+        android:src="@drawable/quantum_ic_more_vert_grey600_24"
+        android:visibility="visible" />
+</LinearLayout>

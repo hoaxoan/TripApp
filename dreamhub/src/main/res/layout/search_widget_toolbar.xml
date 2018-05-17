@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_widget_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_plate"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/searchwidget_searchbox_height_with_shadow"
+        android:background="@drawable/search_bg"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/search_widget_back"
+            android:layout_width="@dimen/searchwidget_super_g_width"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="false"
+            android:background="@drawable/search_box_click"
+            android:contentDescription="@string/accessibility_google_search_button"
+            android:scaleType="center"
+            android:src="@drawable/quantum_ic_arrow_back_grey600_24" />
+
+        <FrameLayout
+            android:id="@+id/search_edit_frame"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/search_box_click"
+            android:clickable="true"
+            android:contentDescription="@string/accessibility_google_search_button"
+            android:layoutDirection="locale"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_box"
+                style="@style/SearchPlate.SearchBox"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="start|center"
+                android:alpha="1.0"
+                android:ellipsize="end"
+                android:hint="@string/search_hint"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textFilter|textNoSuggestions"
+                android:lineSpacingMultiplier="1.1428572"
+                android:privateImeOptions="nm"
+                android:singleLine="true"
+                android:textColor="@color/search_plate_text_color"
+                android:textColorHint="@color/search_plate_hint_text_color"
+                android:textSize="@dimen/search_bar_text_size"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/search_widget_voice_hint"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end|center"
+                android:maxLines="1"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:singleLine="true"
+                android:textColor="@color/search_plate_hint_color"
+                android:textSize="@dimen/search_bar_text_size"
+                android:textStyle="normal"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/search_widget_voice_btn"
+            android:layout_width="@dimen/searchwidget_mic_width"
+            android:layout_height="fill_parent"
+            android:background="@drawable/search_box_click"
+            android:contentDescription="@string/accessibility_voice_search_button"
+            android:gravity="center"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:scaleType="center"
+            android:src="@drawable/quantum_ic_mic_grey600_24" />
+
+        <ImageButton
+            android:id="@+id/search_widget_close_btn"
+            android:layout_width="@dimen/searchwidget_mic_width"
+            android:layout_height="fill_parent"
+            android:background="@drawable/search_box_click"
+            android:contentDescription="@string/accessibility_voice_search_button"
+            android:gravity="center"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:scaleType="center"
+            android:src="@drawable/quantum_ic_close_grey600_24"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+        android:id="@+id/photos_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/image_pages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.winter.dreamhub.widget.InkPageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/landmark_detail_image_carousel_bottom_margin"
+            app:currentPageIndicatorColor="@color/page_indicator_dark_selected"
+            app:pageIndicatorColor="@color/page_indicator_dark" />
+
+    </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+    <include
+        android:id="@+id/landmark_details_header_layout"
+        layout="@layout/landmark_details_header" />
+
+    <include
+        android:id="@+id/landmark_description_layout"
+        layout="@layout/landmark_details_description" />
+
+    <include
+        android:id="@+id/directions_call_website_layout"
+        layout="@layout/landmark_details_directions_call_website" />
+
+<!--    <include
+        android:id="@+id/restaurant_facilities_layout"
+        layout="@layout/restaurant_details_facilities" />
+
+    <include layout="@layout/horizontal_spacer" />
+
+    <include
+        android:id="@+id/restaurant_description_layout"
+        layout="@layout/restaurant_details_description" />-->
+
+    <include layout="@layout/horizontal_spacer" />
+
+    <include
+        android:id="@+id/restaurant_amenities_layout"
+        layout="@layout/restaurant_details_amenities" />
+
+    <include layout="@layout/horizontal_spacer" />
+
+    <include
+        android:id="@+id/landmark_map_layout"
+        layout="@layout/landmark_map" />
+
+    <include
+        android:id="@+id/contacts_layout"
+        layout="@layout/landmark_details_contacts" />
+
+    <include
+        android:id="@+id/spacer_1"
+        layout="@layout/horizontal_spacer" />
+
+   <!-- <include
+        android:id="@+id/review_summary"
+        layout="@layout/landmark_details_review_summary" />
+
+    <include
+        android:id="@+id/spacer_2"
+        layout="@layout/horizontal_spacer" />
+
+      <include layout="@layout/landmark_details_reviews" />-->
+
+    <include layout="@layout/landmark_details_review_header" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/landmark_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="@dimen/divider_height"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:nestedScrollingEnabled="true"
+        android:overScrollFooter="@android:color/transparent"
+        android:overScrollMode="ifContentScrolls"
+        android:paddingBottom="@dimen/padding_normal" /> <!-- http://stackoverflow.com/a/24394230 -->
+</LinearLayout>

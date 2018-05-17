@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/trip_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<!--
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom" />-->
+
+        <FrameLayout
+            android:id="@+id/map_fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/trip_header_overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+                android:id="@+id/trip_hero_image_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/quantum_grey200">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+
+                    <com.winter.dreamhub.widget.FadingImageView
+                        android:id="@+id/trip_hero_image"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/trip_hero_image_overlay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <TextView
+                        android:id="@+id/photo_attribution_text"
+                        style="@style/TripAttribution"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="start|bottom|center"
+                        android:layout_marginBottom="@dimen/trip_details_attribution_bottom_margin"
+                        android:layout_marginLeft="@dimen/trip_details_attribution_left_right_margin"
+                        android:layout_marginRight="@dimen/trip_details_attribution_left_right_margin"
+                        android:gravity="bottom"
+                        android:minHeight="@dimen/min_tap_target"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+<!--            <com.winter.dreamhub.widget.TabbedLayout
+                android:id="@+id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/tabs_layout_height" />
+
+            <include layout="@layout/bottom_shadow" />-->
+        </LinearLayout>
+
+        <com.winter.dreamhub.widget.WindowFitFrameLayout
+            android:id="@+id/toolbar_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/toolbar_layout" />
+        </com.winter.dreamhub.widget.WindowFitFrameLayout>
+    </FrameLayout>
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading_layout" />
+</FrameLayout>

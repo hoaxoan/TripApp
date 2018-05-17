@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729408374859",
+    "firebase_url": "https://dreamhub-154412.firebaseio.com",
+    "project_id": "dreamhub-154412",
+    "storage_bucket": "dreamhub-154412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729408374859:android:ed9235c5865241ef",
+        "android_client_info": {
+          "package_name": "com.winter.dreamhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729408374859-nshd5l7356kg69a7nlvpipnoe8gbbrpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.winter.dreamhub",
+            "certificate_hash": "5946E5AD1A1AF43D2AB17F0E0CBEE5EF949E323C"
+          }
+        },
+        {
+          "client_id": "729408374859-qcb81b9ohdlls22opgf8h6lrqubebhpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP6pVNhaPvMA8dul7tRVz1_7wPAt_BSYs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729408374859-qcb81b9ohdlls22opgf8h6lrqubebhpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bundle_configurator_cluster_info"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/onboarding_bundle_configurator_cluster_row_bottom_padding">
+
+    <ImageView
+        android:id="@+id/bundle_configurator_cluster_icon"
+        android:layout_width="@dimen/onboarding_bundle_configurator_cluster_icon_size"
+        android:layout_height="@dimen/onboarding_bundle_configurator_cluster_icon_size"
+        android:layout_gravity="center_vertical"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_finance_clu_24dp" />
+
+    <LinearLayout
+        android:layout_width="@dimen/onboarding_bundle_configurator_cluster_text_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/onboarding_bundle_configurator_cluster_row_title_start_padding"
+        android:paddingRight="@dimen/onboarding_bundle_configurator_cluster_row_title_end_padding">
+
+        <TextView
+            android:id="@+id/cluster_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="false"
+            android:text="Tai chinh"
+            android:layout_marginTop="10.0dip"
+            android:textColor="@color/dark_text"
+            android:textSize="@dimen/onboarding_bundle_configurator_cluster_title_text_size" />
+    </LinearLayout>
+</LinearLayout>

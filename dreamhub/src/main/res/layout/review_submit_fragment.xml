@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_light"
+    android:descendantFocusability="afterDescendants"
+    android:transitionGroup="false"
+    android:transitionName="@string/transition_shot_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/scrollable_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                style="@style/DialogContent"
+                android:paddingTop="?actionBarSize">
+
+                <RelativeLayout
+                    style="@style/Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.winter.dreamhub.widget.CircularImageView
+                        android:id="@+id/author_image"
+                        android:layout_width="@dimen/avatar_bounds"
+                        android:layout_height="@dimen/avatar_bounds"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="@dimen/avatar_margin"
+                        android:layout_marginStart="@dimen/avatar_margin"
+                        android:foreground="@drawable/avatar_ripple"
+                        android:padding="@dimen/avatar_padding"
+                        android:src="@drawable/ic_player"
+                        android:stateListAnimator="@animator/raise" />
+
+                    <!-- <ImageView
+                         android:id="@+id/author_image"
+                         style="@style/Image"
+                         android:layout_width="@dimen/author_image_size"
+                         android:layout_height="@dimen/author_image_size"
+                         android:layout_marginRight="@dimen/tertiary_padding"
+                         android:src="@drawable/profile_pic_review_placeholder" />-->
+
+                    <TextView
+                        android:id="@+id/authorname_textbox"
+                        style="@style/TextBox"
+                        android:layout_width="wrap_content"
+                        android:layout_alignTop="@id/author_image"
+                        android:layout_toRightOf="@id/author_image"
+                        android:paddingTop="@dimen/spacing_micro"
+                        android:text="Nguyen Do"
+                        android:textAppearance="@style/MediumText" />
+
+                    <TextView
+                        android:id="@+id/publishdate_textbox"
+                        style="@style/TextBox"
+                        android:layout_alignBottom="@id/author_image"
+                        android:layout_toRightOf="@id/author_image"
+                        android:text="Posting publicly"
+                        android:textAppearance="@style/MicroTertiaryText" />
+                </RelativeLayout>
+
+                <RatingBar
+                    android:id="@+id/review_textbox"
+                    style="@style/CollapsedBodyTextBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/padding_normal"
+                    android:layout_marginLeft="@dimen/padding_normal"
+                    android:layout_marginRight="@dimen/padding_normal" />
+
+                <View
+                    android:id="@+id/divider"
+                    style="@style/Divider" />
+
+                <EditText
+                    android:id="@+id/ownerresponse_textbox"
+                    style="@style/MultilineEditTextBox"
+                    android:layout_marginBottom="@dimen/padding_normal"
+                    android:hint="Reviews" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

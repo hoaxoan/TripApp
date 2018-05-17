@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:onthego="http://schemas.android.com/apk/res-auto"
+    style="@style/LandmarkDetails.Default"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/landmark_details_common_padding"
+    android:paddingLeft="@dimen/landmark_details_common_padding"
+    android:paddingRight="@dimen/landmark_details_common_padding"
+    android:paddingTop="@dimen/landmark_details_common_padding">
+
+    <com.winter.dreamhub.widget.ExpandableTextView
+        android:id="@+id/entity_description"
+        style="@style/LandmarkDetails.Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        onthego:collapsedLineCount="3" />
+
+    <TextView
+        android:id="@+id/entity_description_attribution"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/landmark_details_small_padding" />
+</LinearLayout>

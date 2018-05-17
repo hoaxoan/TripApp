@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FabTransform">
+        <attr name="fabTransformColor" format="color" />
+        <attr name="fabTransformIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

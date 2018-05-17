@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/generic_container"
+    style="@style/GenericCarouselTile"
+    android:background="@drawable/generic_chip_background"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/generic_image_container"
+        android:layout_width="@dimen/generic_pop_image_width"
+        android:layout_height="@dimen/generic_pop_image_height">
+
+        <ImageView
+            android:id="@+id/generic_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/generic_image_overlay_rect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/generic_image_overlay"
+            android:visibility="gone" />
+
+        <ViewStub
+            android:id="@+id/generic_generic_status_text"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/generic_tl_badges_height"
+            android:layout_gravity="bottom"
+            android:inflatedId="@+id/generic_generic_status_text"
+            android:layout="@layout/generic_status_chip" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/generic_image_container"
+        android:paddingLeft="@dimen/carousel_chip_text_side_padding"
+        android:paddingRight="@dimen/carousel_chip_text_side_padding">
+
+        <TextView
+            android:id="@+id/generic_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingLeft="@dimen/generic_tl_carousel_padding"
+            android:singleLine="true"
+            android:textColor="@color/dark_text"
+            android:textSize="@dimen/item_list_snippet_size"
+            android:text="Trip to New York"/>
+
+        <TextView
+            android:id="@+id/generic_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/generic_line1"
+            android:layout_marginTop="@dimen/generic_tl_line_top_margin"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingLeft="@dimen/generic_tl_carousel_padding"
+            android:singleLine="true"
+            android:textColor="@color/light_text"
+            android:textSize="@dimen/item_list_snippet_size"
+            android:visibility="visible"
+            android:text="June 19 - 25"/>
+
+        <FrameLayout
+            android:id="@+id/generic_line3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/generic_line2"
+            android:layout_marginTop="@dimen/generic_tl_line_top_margin" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/dismiss_button"
+        android:layout_alignParentRight="true"
+        layout="@layout/generic_dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/generic_dismiss_button_padding"
+        android:visibility="gone" />
+</RelativeLayout>

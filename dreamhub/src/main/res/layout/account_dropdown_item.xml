@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.BaselineGridTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/dropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@drawable/mid_grey_bounded_ripple"
+    android:ellipsize="marquee"
+    android:maxLines="1"
+    android:paddingEnd="@dimen/padding_normal"
+    android:paddingStart="@dimen/padding_normal"
+    android:textAppearance="?android:attr/textAppearanceLargePopupMenu" />

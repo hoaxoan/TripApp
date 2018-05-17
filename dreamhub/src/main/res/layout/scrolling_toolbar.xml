@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/notification_bar_spacer"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="#ff9e9e9e" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/hanging_view_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_actionbar"
+            style="?attr/actionBarStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?colorPrimary" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="5.0dip"
+        android:alpha="0.0"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/theme_fake_shadow_bottom_edge" />
+</LinearLayout>

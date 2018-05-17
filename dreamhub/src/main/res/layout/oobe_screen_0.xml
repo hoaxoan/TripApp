@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Onboarding_WelcomeScreen"
+    android:background="@drawable/oobe_m_001">
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Title"
+        android:text="Inbox" />
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Cluster_Title"
+        android:layout_marginTop="227.0px"
+        android:text="Promos"
+        android:textColor="@color/cluster_name_promos" />
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Cluster_Content"
+        android:layout_marginTop="288.0px"
+        android:text="Blitz Air, Running Club, Rabbit Facts" />
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Cluster_Title"
+        android:layout_marginTop="664.0px"
+        android:text="Purchases"
+        android:textColor="@color/cluster_name_shopping" />
+
+    <TextView
+        style="@style/Onboarding_WelcomeScreen_FakeImage_Cluster_Content"
+        android:layout_marginTop="725.0px"
+        android:text="Shoehop, Creek Farms, Dollar Auction" />
+</FrameLayout>

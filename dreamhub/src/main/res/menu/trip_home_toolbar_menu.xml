@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/quantum_ic_mode_edit_white_24"
+        android:title="@string/edit_trip_menu_label"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/trip_delete_from_google"
+        android:title="@string/delete_trip_from_google_menu_item" />
+</menu>

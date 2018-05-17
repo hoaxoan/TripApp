@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Main layout -->
+    <com.winter.dreamhub.widget.DrawShadowFrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+        app:shadowDrawable="@drawable/header_shadow">
+
+        <LinearLayout
+            android:id="@+id/headerbar"
+            style="@style/HeaderBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar_actionbar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Action bar layout -->
+            <LinearLayout
+                style="@style/HeaderBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <include layout="@layout/toolbar_actionbar" />
+
+                <!-- Spinners for additional filters -->
+                <LinearLayout
+                    android:id="@+id/filters_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/filter_bar_height"
+                    android:orientation="horizontal"
+                    android:paddingLeft="?spinnerBarInsetStart"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <!-- Main layout -->
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Main layout -->
+                <ScrollView
+                    android:id="@+id/login_scroll_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/app_background_new"
+                    android:scrollbarStyle="outsideOverlay">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/content"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:orientation="vertical"
+                            android:padding="@dimen/rhythm48_large_gutter">
+
+                            <RelativeLayout
+                                android:id="@+id/social_buttons_wrapper"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+
+                                <Button
+                                    android:id="@+id/gplus_signin"
+                                    style="@style/button_google_light"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10.0dip"
+                                    android:gravity="center"
+                                    android:text="@string/google_plus_signin" />
+
+                                <FrameLayout
+                                    android:id="@+id/facebook_container"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/gplus_signin">
+
+                                    <com.facebook.login.widget.LoginButton
+                                        android:id="@+id/facebook_signin"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone" />
+
+                                    <Button
+                                        android:id="@+id/custom_facebook_signin"
+                                        style="@style/narrow_facebook_button"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginBottom="10.0dip"
+                                        android:gravity="center"
+                                        android:text="@string/facebook_signin" />
+                                </FrameLayout>
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/stroke_width"
+                                    android:layout_below="@+id/facebook_container"
+                                    android:background="@color/stroke_grey" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/username_float_label"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/spacing_micro"
+                                    app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+                                    <AutoCompleteTextView
+                                        android:id="@+id/username"
+                                        style="@style/edit_text_field"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/email_address"
+                                        android:imeOptions="actionNext"
+                                        android:inputType="textEmailAddress"
+                                        android:selectAllOnFocus="true" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <CheckBox
+                                    android:id="@+id/permission_primer"
+                                    style="@style/Winter.HintCheckBox"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/spacing_normal"
+                                    android:text="@string/get_accounts_permission_primer_message" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/password_float_label"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/spacing_micro"
+                                    app:hintTextAppearance="@style/TextAppearance.FloatLabelHint">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/password"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/password"
+                                        android:imeOptions="actionGo"
+                                        android:inputType="textPassword"
+                                        android:selectAllOnFocus="true" />
+
+                                </android.support.design.widget.TextInputLayout>
+                            </LinearLayout>
+
+
+                            <Button
+                                android:id="@+id/login"
+                                style="@style/Winter.Button"
+                                android:layout_width="fill_parent"
+                                android:layout_height="?android:actionBarSize"
+                                android:layout_marginTop="@dimen/activity_vertical_margin"
+                                android:onClick="doLogin"
+                                android:text="@string/login_button_label" />
+
+
+                            <TextView
+                                android:id="@+id/link_register"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/activity_vertical_margin"
+                                android:gravity="center"
+                                android:text="@string/link_register_label"
+                                android:textSize="@dimen/text_size_large" />
+
+                        </LinearLayout>
+
+                        <include layout="@layout/loading" />
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.winter.dreamhub.widget.DrawShadowFrameLayout>
+    <!-- Nav drawer -->
+    <!--<include layout="@layout/design_navigation" />-->
+
+</android.support.v4.widget.DrawerLayout>

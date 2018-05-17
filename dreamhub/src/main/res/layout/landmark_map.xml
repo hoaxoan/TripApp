@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.winter.dreamhub.widget.FixedAspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/landmark_map_holder"
+    style="@style/LandmarkDetails.MapsBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/landmark_details_common_padding"
+    android:paddingRight="@dimen/landmark_details_common_padding"
+    android:visibility="visible">
+
+    <!--<ImageView
+        android:id="@+id/landmark_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter" />-->
+
+    <fragment
+        android:id="@+id/landmark_map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter" />
+
+    <View
+        android:id="@+id/landmark_map_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?android:selectableItemBackground" />
+</com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>

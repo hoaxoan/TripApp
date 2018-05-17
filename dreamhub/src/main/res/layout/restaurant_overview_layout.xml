@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/restaurant_item"
+    android:layout_width="@dimen/restaurant_overview_item_width"
+    android:paddingRight="@dimen/photo_carousel_item_padding_right"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:orientation="vertical">
+
+    <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+        android:id="@+id/photo_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="noHideDescendants">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+    </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+
+    <TextView
+        android:id="@+id/restaurant_title"
+        style="@style/Winter.TextAppearance.Subhead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/restaurant_overview_item_common_padding" />
+
+    <LinearLayout
+        android:id="@+id/restaurant_rating_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/restaurant_overview_item_common_padding"
+        android:paddingLeft="@dimen/restaurant_overview_item_common_padding"
+        android:paddingRight="@dimen/restaurant_overview_item_common_padding">
+
+        <TextView
+            android:id="@+id/restaurant_average_rate"
+            style="@style/RestaurantOverviewAverageRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <RatingBar
+            android:id="@+id/restaurant_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/landmark_item_rating_bar_height"
+            android:layout_marginLeft="@dimen/landmark_item_rating_bar_margin_left"
+            android:layout_marginRight="@dimen/landmark_item_rating_bar_margin_right"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressDrawable="@drawable/landmark_item_rating_star_12dp"
+            android:stepSize="0.1" />
+
+        <TextView
+            android:id="@+id/restaurant_total_evaluations"
+            style="@style/RestaurantOverviewReviewCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

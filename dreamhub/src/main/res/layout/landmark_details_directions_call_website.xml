@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LandmarkDetails.DirectionsCallWebsite"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/landmark_details_common_padding">
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="?android:selectableItemBackground"
+        android:drawableTop="@drawable/quantum_ic_directions_grey600_24"
+        android:gravity="center"
+        android:minHeight="@dimen/min_tap_target"
+        android:text="@string/landmark_details_directions_label"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="?android:selectableItemBackground"
+        android:drawableTop="@drawable/quantum_ic_phone_grey600_24"
+        android:gravity="center"
+        android:minHeight="@dimen/min_tap_target"
+        android:text="@string/landmark_details_call_label"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="?android:selectableItemBackground"
+        android:drawableTop="@drawable/quantum_ic_public_grey600_24"
+        android:gravity="center"
+        android:minHeight="@dimen/min_tap_target"
+        android:text="@string/landmark_details_website_label"
+        android:textAllCaps="true" />
+</LinearLayout>

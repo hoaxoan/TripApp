@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itineraries_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="ve=14724">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/itineraries_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/itineraries_list_top_bottom_padding"
+        android:paddingTop="@dimen/itineraries_list_top_bottom_padding"
+        android:scrollbars="vertical" />
+
+    <include layout="@layout/toolbar_layout" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom|center"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:contentDescription="@string/cd_activities_label_start_new_itinerary"
+        android:src="@drawable/quantum_ic_add_white_24"
+        android:tag="ve=14728;track:click"
+        app:backgroundTint="@color/quantum_pink" />
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading_layout"
+        android:visibility="gone" />
+</FrameLayout>

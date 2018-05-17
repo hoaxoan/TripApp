@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/trips_list_header_height">
+
+    <LinearLayout
+        android:id="@+id/explore_section"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/material_triple_padding"
+            android:text="@string/destination_search_explore" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/material_double_padding"
+            android:paddingLeft="@dimen/material_single_padding"
+            android:paddingRight="@dimen/material_single_padding">
+
+            <com.winter.dreamhub.widget.FixedAspectRatioFrameLayout
+                android:id="@+id/destinations_carousel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/destination_views"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </com.winter.dreamhub.widget.FixedAspectRatioFrameLayout>
+        </android.support.v7.widget.CardView>
+
+        <com.winter.dreamhub.widget.TabbedLayout
+            android:id="@+id/dots"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/material_single_padding"
+            android:paddingTop="@dimen/material_double_padding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/no_trips_illustration_section"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="320.0dip"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/material_sextuple_padding"
+            android:src="@drawable/no_trips" />
+
+        <TextView
+            style="@style/Winter.TextAppearance.Body1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/material_sextuple_padding"
+            android:text="@string/no_trips_text" />
+    </LinearLayout>
+</LinearLayout>

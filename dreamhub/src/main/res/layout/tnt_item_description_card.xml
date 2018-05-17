@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/tnt_item_padding_16"
+    android:paddingRight="@dimen/tnt_item_padding_16"
+    android:paddingTop="@dimen/tnt_item_padding_20">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tnt_item_padding_16" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/TNTContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tnt_item_padding_24" />
+</LinearLayout>

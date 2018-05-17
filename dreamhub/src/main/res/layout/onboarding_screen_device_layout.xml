@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/oobe_device_12dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/onboarding_screen_fake_image_top_margin">
+
+        <ImageView
+            android:layout_width="@dimen/onboarding_screen_device_speaker_size"
+            android:layout_height="@dimen/onboarding_screen_device_speaker_size"
+            android:layout_gravity="center"
+            android:alpha="0.1"
+            android:src="@drawable/ic_oobe_pagedots_on" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/onboarding_screen_device_screen_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/onboarding_screen_fake_image_horizontal_margin"
+        android:layout_marginRight="@dimen/onboarding_screen_fake_image_horizontal_margin"
+        android:importantForAccessibility="noHideDescendants" />
+</LinearLayout>

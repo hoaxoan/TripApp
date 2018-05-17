@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/material_triple_padding"
+    android:layout_marginTop="@dimen/material_triple_padding"
+    android:background="@drawable/chip_round_corners"
+    android:clickable="true"
+    android:gravity="center"
+    android:minHeight="@dimen/chip_height"
+    android:textColor="@color/quantum_white_100"/>

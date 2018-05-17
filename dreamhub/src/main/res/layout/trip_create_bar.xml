@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/download_guide_bar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/trip_download_bar_height"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/download_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/trip_switch_left_margin"
+        android:layout_marginRight="@dimen/trip_switch_right_margin"
+        android:contentDescription="@string/cd_trip_item_download_switch"
+        android:minHeight="@dimen/min_tap_target" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/trip_download_progress_height"
+        android:layout_gravity="top"
+        android:visibility="gone" />
+</FrameLayout>

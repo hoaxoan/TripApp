@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrim"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="150dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:alignmentMode="alignBounds"
+        android:background="@drawable/dialog_background"
+        android:columnCount="2"
+        android:elevation="@dimen/z_app_bar"
+        android:padding="@dimen/spacing_micro"
+        android:rowCount="2">
+
+        <com.winter.dreamhub.widget.ForegroundImageView
+            android:id="@+id/avatar"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_rowSpan="2"
+            android:src="@drawable/ic_player" />
+
+        <com.winter.dreamhub.widget.BaselineGridTextView
+            android:layout_marginEnd="@dimen/padding_normal"
+            android:paddingTop="@dimen/spacing_micro"
+            android:text="@string/logged_in_as"
+            android:textAppearance="@style/TextAppearance.Comment" />
+
+        <com.winter.dreamhub.widget.BaselineGridTextView
+            android:id="@+id/name"
+            android:layout_marginEnd="@dimen/padding_normal"
+            android:paddingTop="@dimen/spacing_micro"
+            android:textAppearance="@style/TextAppearance.CommentAuthor"
+            tools:text="Winter" />
+
+    </GridLayout>
+
+</FrameLayout>

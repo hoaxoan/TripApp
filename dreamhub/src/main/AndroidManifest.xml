@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winter.dreamhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".DreamHubApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DreamHub">
+        <!-- [START fcm_default_icon] -->
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <!-- [END fcm_default_icon] -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!--<meta-data
+              android:name="com.google.android.maps.v2.API_KEY"
+              android:value="@string/google_maps_key" />-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <!--  <provider
+              android:name="com.facebook.FacebookContentProvider"
+              android:authorities="com.facebook.app.FacebookContentProvider1234"
+              android:exported="true" />-->
+
+
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".searchs.SearchActivity"
+            android:exported="false"
+            android:label="@string/title_search"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.DreamHub.Search">
+            <!-- This Activity handles the search intent -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <!-- Intent filter does not need a category = default, since the system delivers
+                     the ACTION_SEARCH intent explicitly to the searcheable activity,
+                     using component name.
+                  -->
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".searchs.SearchListActivity"
+            android:exported="false"
+            android:label="@string/title_search"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.DreamHub.ListSearch">
+            <!-- This Activity handles the search intent -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <!-- Intent filter does not need a category = default, since the system delivers
+                     the ACTION_SEARCH intent explicitly to the searcheable activity,
+                     using component name.
+                  -->
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".searchs.QuickSearchActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.DreamHub.Translucent.Search">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".trips.TripHomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent" />
+
+        <activity
+            android:name=".landmarks.ThingsToDoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".landmarks.LandmarkDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent" />
+
+        <activity
+            android:name=".tnts.TntActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".itineraries.ItinerariesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".savedplaces.SavedPlacesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".hotels.HotelsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".hotels.HotelDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent" />
+
+        <activity
+            android:name=".hotels.AmenitiesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".hotels.HotelBookingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".reviews.SubmitReviewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".trips.PhotoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".restaurants.RestaurantDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent" />
+
+        <activity
+            android:name=".restaurants.RestaurantsListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".restaurants.RestaurantsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".auth.WinterLogin"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent"
+            android:windowAnimationStyle="@null"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".profiles.SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub" />
+
+        <activity
+            android:name=".profiles.AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DreamHub.Translucent" />
+
+        <!-- TaskStackBuilder proxy activity for widgets and notifications. -->
+
+        <activity
+            android:name=".activity.TaskStackBuilderProxyActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <!-- BEGIN Google Analytics install referral measurement -->
+        <!-- The service (provided by the Google Play services client library) that receives an
+             intent from the CampaignTrackingReceiver upon install referral. -->
+        <service
+            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+            android:exported="false" />
+
+        <!-- The receiver is called when Google Play has install referrer information and the app
+             was installed from Google Play. On API >= 13 the receiver is called after first app
+             launch rather than after install. -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!-- For more information on Google Analytics install referral measurement see
+             https://goo.gl/RWn9xv -->
+        <!-- END Google Analytics install referral measurement -->
+
+        <!-- Register AnalyticsReceiver and AnalyticsService to support background
+             dispatching on non-Google Play devices. -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+          This is a receiver provided by Google Play Services. It handles receiving
+          messages and passes them to GcmListenerService which offers a callback
+          that we will override to take action based on the content of the message received.
+
+          The com.google.android.c2dm.permission.SEND permission is necessary
+          so only GCM services can send data messages for the app.
+        -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.winter.dreamhub" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Firebase Notifications -->
+        <service android:name=".gcm.FCMFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".gcm.FCMFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <!--
+          GCMMessageListenerService is the extension of the GcmListenerService,
+          where we handle received GCM messages.
+        -->
+        <!--  <service
+              android:name=".gcm.GCMMessageListenerService"
+              android:exported="false">
+              <intent-filter>
+                  <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+              </intent-filter>
+          </service>
+
+          <service
+              android:name=".gcm.GCMInstanceIDListenerService"
+              android:exported="false">
+              <intent-filter>
+                  <action android:name="com.google.android.gms.iid.InstanceID" />
+              </intent-filter>
+          </service>
+
+          <service
+              android:name=".gcm.GCMRegistrationIntentService"
+              android:exported="false" />
+
+          <service
+              android:name=".gcm.GCMUnregisterIntentService"
+              android:exported="false" />-->
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@string/share_authority"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/glide_disk_cache_path" />
+        </provider>
+
+    </application>
+
+</manifest>
